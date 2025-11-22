@@ -7,6 +7,7 @@ extends Control
 @onready var main_menu = $MainContain
 @onready var title = $Title
 @onready var endings = $Endings
+@onready var endings2 = $Endings2
 var settings_open = false
 
 func _ready():
@@ -34,3 +35,12 @@ func _on_ending_pressed() -> void:
 
 func _on_quit_pressed() -> void:
 	_on_ending_pressed()
+
+
+func _on_next_pressed() -> void:
+	endings2.visible = !endings2.visible
+	endings.visible = !endings.visible
+
+
+func _on_previous_pressed() -> void:
+	_on_next_pressed()
