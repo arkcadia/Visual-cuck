@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+Global="*res://src/Global.gd"
 
 [dialogic]
 
@@ -36,7 +37,9 @@ directories/dtl_directory={
 "Chapter_2": "res://storyline/Chapter_2.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
-layout/style_directory={}
+layout/style_directory={
+"VisualNovelStyle": "res://test/VisualNovelStyle.tres"
+}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -76,6 +79,13 @@ variables={
 "Visited_Glitch": false,
 "Visited_Moine": false
 }
+layout/style_list=["", "res://test/VisualNovelStyle.tres"]
+layout/default_style="res://test/CustomTestStyle/testing_style.tres"
+glossary/default_case_sensitive=true
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
