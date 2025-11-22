@@ -10,41 +10,40 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "BG",
-&"description": "Personnage principal
-",
-&"display_name": "Gattouz",
+&"default_portrait": "1coeur",
+&"description": "",
+&"display_name": "coeurouge",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"BG": {
+"1coeur": {
 "export_overrides": {
-"image": "\"res://storyline/gattouz_bg.png\""
+"image": "\"res://assets/mortadon/1coeur.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 0.5,
 "scene": ""
 },
-"Super Saiyan": {
+"2coeur": {
 "export_overrides": {
-"image": ""
+"image": "\"res://assets/mortadon/2coeur.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 0.5,
 "scene": ""
 },
-"spiderman": {
+"3coeur": {
 "export_overrides": {
-"image": "\"res://assets/mortadon/image-removebg-preview.png\""
+"image": "\"res://assets/mortadon/coeur-removebg-preview.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 1,
+"scale": 0.5,
 "scene": ""
 }
 },
-&"scale": 1.0
+&"scale": 0.5
 }

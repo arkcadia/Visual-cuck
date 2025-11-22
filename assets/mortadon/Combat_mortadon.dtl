@@ -1,12 +1,52 @@
 [background arg="res://assets/mortadon/snack.png" fade="0.0"]
 
 Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment vous se reglez nos combattants Chaque combattants à trois vies
-Narrator : c'est à vous joueur de répondre correctement aux questions pour que le Lord Gattouz puissent découper ce vendeur de Sandwich !
+Narrator: c'est à vous joueur de répondre correctement aux questions pour que le Lord Gattouz puissent découper ce vendeur de Sandwich !
 
 join Mortadon (boss) left [animation="Bounce In" length="2.0"]
 join gatouzvert right [animation="Bounce In" length="2.0"]
-join coeur (3coeur) center [animation="Bounce In" length="2.0"]
 join coeur (3coeurvert) rightmost [animation="Bounce In" length="2.0"]
+join coeurouge (3coeur) leftmost
 
 Gattouz: HABIBI !
-Mortadon: MONSTRE ! DOUBLE MONSTRE !
+Mortadon: MONSTRE ! DOUBLE MONSTRE !!
+Narrator: Première question ! Quel est le métier de Gattouz ??
+label Première question
+- Acteur porno
+	Narrator: Félicitations prochaine question !
+- Joeur de Scrabble Professionnel
+	Tes débile mec, c'est logique on connait tous gattouz pour ces parties de jambe en l'air
+	jump Combat_mortadon/Première question
+
+leave coeurouge
+join coeurouge (2coeur) leftmost [animation="Bounce In" length="2.0"]
+label deuxième_question
+Narrator: Deuxième question ! Devenir un cuck man est une pratique \:
+- Religieuse
+	Narrator: FAUX ! FAUX ! Recommence !
+	jump Combat_mortadon/deuxième_question
+- Sexuel
+	Mortadon: Félicitation prochain et dernière question pour abattre Mortadon
+leave coeurouge
+join coeurouge (1coeur) leftmost
+Gattouz: Mashallah khoya !
+Narrator: A vu d'oeil Gattouz commence à retrouver ses couleurs !
+label Troisieme_question
+Narrator: Dernière question !  Quel footballeur a été incarcérer pour avoir commis 7 viol ?? Interessant non ?
+- Hakimi
+	Narrator: Tu dis ca parce qu'il est un peu ... un peu ...
+	jump Troisieme_question
+- Benjamin Mendy
+	Narrator: Félicitations
+- Dani Alves
+	Narrator: Et non Dani a été incarcérer pour agression sexuelle uniquement ! Quel chance
+	jump Troisieme_question
+Narrator: Félicitations c'est gagné pour toi ! Gattouz redeviens tout blanc et attend ...
+Il se transforme !!!!!! HABIBI !
+leave --All-- [animation="Fade Out" length="2.0"]
+[wait time="2.0"]
+join Gattouz (spiderman) center
+Gattouz: Merci mon pote de m'avoir aider ! Sur ces belles paroles
+Gattouz: Je m'en vais sauver khalamité et abattre ceux qui se dressent contre moi
+Gattouz: [i](un petit baton se dresse)[/i]
+jump Chapter_1/choix_debut

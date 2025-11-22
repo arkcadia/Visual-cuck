@@ -30,7 +30,9 @@ directories/dch_directory={
 "Lettre": "res://storyline/Lettre.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
+"character": "res://storyline/character.dch",
 "coeur": "res://assets/mortadon/coeur.dch",
+"coeurouge": "res://storyline/coeurouge.dch",
 "gatouzvert": "res://assets/mortadon/gatouzvert.dch",
 "purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch",
 "snack": "res://assets/mortadon/snack.dch"
@@ -78,10 +80,15 @@ audio/channel_defaults={
 }
 variables={
 "NPCS_visited": 0,
+"R_ponse_A": false,
+"Reponse_B": false,
 "Visited_8bits": false,
 "Visited_Glitch": false,
 "Visited_Moine": false
 }
+glossary/default_case_sensitive=true
+layout/style_list=[]
+layout/default_style=""
 
 [display]
 
