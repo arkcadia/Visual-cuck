@@ -24,6 +24,8 @@ Global="*res://src/Global.gd"
 
 directories/dch_directory={
 "8_bits_npc": "res://storyline/8_bits_npc.dch",
+"Adorateiur": "res://assets/main_story/Adorateiur.dch",
+"Adorateur_2": "res://assets/main_story/Adorateur_2.dch",
 "Cuck_monk": "res://storyline/Cuck_monk.dch",
 "Foule_Cuck": "res://storyline/Foule_Cuck.dch",
 "Gattouz": "res://storyline/Gattouz.dch",
@@ -31,18 +33,21 @@ directories/dch_directory={
 "Lettre": "res://storyline/Lettre.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
+"adorateur_1": "res://assets/main_story/adorateur_1.dch",
 "character": "res://storyline/character.dch",
 "coeur": "res://assets/mortadon/coeur.dch",
 "coeurouge": "res://storyline/coeurouge.dch",
 "gatouzvert": "res://assets/mortadon/gatouzvert.dch",
 "purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch",
-"snack": "res://assets/mortadon/snack.dch"
+"snack": "res://assets/mortadon/snack.dch",
+"weirdo": "res://weirdo.dch"
 }
 directories/dtl_directory={
 "Brazil_Chapter": "res://storyline/Brazil_Chapter.dtl",
 "Chapter_1": "res://storyline/Chapter_1.dtl",
 "Chapter_2": "res://storyline/Chapter_2.dtl",
 "Chapter_3": "res://assets/mortadon/Chapter_3.dtl",
+"Chapter_4": "res://storyline/Chapter_4.dtl",
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
