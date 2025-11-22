@@ -173,7 +173,5 @@ offset_right = -3.0517578e-05
 texture_normal = ExtResource("8_kf8lf")
 
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
-
 [connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
-
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]

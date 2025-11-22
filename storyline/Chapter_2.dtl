@@ -102,4 +102,8 @@ leave Gattouz
 Narrator: Sans attendre, Gattouz s'élance vers le manoir qui domine Tekpi City.
 Narrator: Il court, poussé par le destin.
 Narrator: Mais il le sait, Stéph fera tout pour l'arrêter.
+label Notification
+- Ignorer
+- Ouvrir la notification
+	jump Gayttouze_Chapter/Gayttouze
 [wait time="1.0"]

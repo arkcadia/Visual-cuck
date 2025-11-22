@@ -27,8 +27,11 @@ directories/dch_directory={
 "Cuck_monk": "res://storyline/Cuck_monk.dch",
 "Foule_Cuck": "res://storyline/Foule_Cuck.dch",
 "Gattouz": "res://storyline/Gattouz.dch",
+"Gayttouz": "res://assets/Gaytouzze/Gayttouz.dch",
 "Glitched_Woman": "res://storyline/Glitched_Woman.dch",
+"Grinder": "res://Grinder.dch",
 "Lettre": "res://storyline/Lettre.dch",
+"Lil Nas X": "res://Lil Nas X.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
 "coeur": "res://assets/mortadon/coeur.dch",
@@ -41,11 +44,10 @@ directories/dtl_directory={
 "Chapter_1": "res://storyline/Chapter_1.dtl",
 "Chapter_2": "res://storyline/Chapter_2.dtl",
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
+"Gayttouze_Chapter": "res://Gayttouze_Chapter.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
-layout/style_directory={
-"VisualNovelStyle": "res://test/VisualNovelStyle.tres"
-}
+layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -85,13 +87,9 @@ variables={
 "Visited_Glitch": false,
 "Visited_Moine": false
 }
-layout/style_list=["", "res://test/VisualNovelStyle.tres"]
+layout/style_list=[]
 layout/default_style="res://test/CustomTestStyle/testing_style.tres"
 glossary/default_case_sensitive=true
-
-[display]
-
-window/stretch/mode="canvas_items"
 
 [display]
 
