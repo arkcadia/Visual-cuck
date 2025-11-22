@@ -61,7 +61,7 @@ Narrator: Après un court trajet,\
 Gattouz arrive devant le Burger King à pau route de Tarbes.
 Narrator: Il commande un menu mystère espérant trouver un double steakhouse.
 Narrator: Mais ce gros noob tombe sur un [b]SALE[/b] Big Fish.
-join Gattouz left
+join Gattouz (spiderman) left
 join McFish right
 McFish: Bah alors loser t'es tombé sur moi ou quoi?
 McFish: Aller retourne te pignouf sur des Schtroumpfs.
