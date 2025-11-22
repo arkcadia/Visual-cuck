@@ -1,0 +1,162 @@
+[gd_scene load_steps=9 format=3 uid="uid://ccqntl865eqmi"]
+
+[ext_resource type="Script" uid="uid://b310vjoivqxkt" path="res://src/main.gd" id="1_3cfgd"]
+[ext_resource type="Texture2D" uid="uid://ccx1h5wy5hil4" path="res://assets/menu/menu_background.jpeg" id="1_eewff"]
+[ext_resource type="FontFile" uid="uid://bbwk4cong4hdu" path="res://assets/menu/PistonBlack-Regular.ttf" id="2_5q4o7"]
+[ext_resource type="FontFile" uid="uid://3g8f8savlcdd" path="res://assets/menu/Blast Dragon D.otf" id="3_3cfgd"]
+[ext_resource type="Script" uid="uid://c4blorpi3e0sc" path="res://src/display_selector.gd" id="6_5mrjc"]
+[ext_resource type="Texture2D" uid="uid://cj8dgkfb42mh2" path="res://assets/menu/ArrowsLeft.png" id="6_rlaii"]
+[ext_resource type="Texture2D" uid="uid://cdyol6o6mtctp" path="res://assets/menu/ArrowsRight.png" id="8_kf8lf"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gh0ne"]
+
+[node name="menu" type="Node2D"]
+script = ExtResource("1_3cfgd")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(572, 320.50003)
+scale = Vector2(1.476804, 0.62065625)
+texture = ExtResource("1_eewff")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Menu" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -2.0
+offset_top = -7.0
+offset_right = 1147.0
+offset_bottom = 639.0
+
+[node name="Title" type="Label" parent="UI/Menu"]
+layout_mode = 0
+offset_left = 488.0
+offset_top = 37.0
+offset_right = 890.0
+offset_bottom = 105.0
+theme_override_colors/font_color = Color(0.80784315, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_5q4o7")
+theme_override_font_sizes/font_size = 40
+text = "My BestfFriend is a chair"
+
+[node name="Display" type="Label" parent="UI/Menu"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 118.0
+offset_right = 562.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 24
+text = "Display"
+text_direction = 1
+
+[node name="Label_Display" type="Label" parent="UI/Menu"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 159.0
+offset_right = 424.0
+offset_bottom = 185.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 19
+text = "Window"
+
+[node name="MainContain" type="VBoxContainer" parent="UI/Menu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 114.0
+offset_top = 165.0
+offset_right = -821.0
+offset_bottom = -317.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="New game" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "New Game
+"
+alignment = 0
+
+[node name="Load game" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "Load Game
+"
+alignment = 0
+
+[node name="Settings" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "Settings
+"
+alignment = 0
+
+[node name="About" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "About
+"
+alignment = 0
+
+[node name="Quit" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "Quit"
+alignment = 0
+
+[node name="DisplaySelector" type="Control" parent="UI/Menu"]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("6_5mrjc")
+
+[node name="LeftArrow" type="TextureButton" parent="UI/Menu/DisplaySelector"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 11.575001
+anchor_top = 4.0
+anchor_right = 11.875001
+anchor_bottom = 4.525
+offset_left = -3.0517578e-05
+offset_right = -3.0517578e-05
+size_flags_stretch_ratio = 0.5
+texture_normal = ExtResource("6_rlaii")
+
+[node name="RightArrow" type="TextureButton" parent="UI/Menu/DisplaySelector"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 12.475
+anchor_top = 4.025
+anchor_right = 12.625001
+anchor_bottom = 4.55
+offset_left = -6.0
+offset_right = -3.0517578e-05
+texture_normal = ExtResource("8_kf8lf")
+
+[connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="UI/Menu/DisplaySelector/LeftArrow" to="UI/Menu/DisplaySelector" method="_on_left_arrow_pressed"]
+[connection signal="pressed" from="UI/Menu/DisplaySelector/RightArrow" to="UI/Menu/DisplaySelector" method="_on_right_arrow_pressed"]
