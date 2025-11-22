@@ -102,5 +102,8 @@ leave Gattouz
 Narrator: Sans attendre, Gattouz s'élance vers le manoir qui domine Tekpi City.
 Narrator: Il court, poussé par le destin.
 Narrator: Mais il le sait, Stéph fera tout pour l'arrêter.
-[wait time="1.0"]
-[background arg="res://assets/main_story/manoircuck.jpg" fade="0.0"]
+join Gattouz center
+Gattouz: La guerre commence maintenant.
+
+- En route pour le manoir
+	jump Chapter_3/Debut_Chapitre_3

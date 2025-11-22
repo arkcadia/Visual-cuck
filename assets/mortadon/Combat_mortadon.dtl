@@ -1,10 +1,10 @@
 [background arg="res://assets/mortadon/snack.png" fade="0.0"]
 
 Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment ce combat va se finir.
-Narrator : C'est à vous joueur de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
+Narrator: C'est à vous joueur de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
 
 join Mortadon (boss) left [animation="Bounce In" length="2.0"]
-join gatouzvert right [animation="Bounce In" length="2.0"]
+join Gattouz right [animation="Bounce In" length="2.0"]
 join coeur (3coeurvert) rightmost [animation="Bounce In" length="2.0"]
 join coeurouge (3coeur) leftmost
 
@@ -45,7 +45,7 @@ Narrator: Félicitations c'est gagné pour toi ! Gattouz redeviens tout blanc et
 Il se transforme !!!!!! HABIBI !
 leave --All-- [animation="Fade Out" length="2.0"]
 [wait time="2.0"]
-join Gattouz (spiderman) center
+join Gattouz (BG) center
 Gattouz: Merci mon pote de m'avoir aider ! Sur ces belles paroles
 Gattouz: Je m'en vais sauver khalamité et abattre ceux qui se dressent contre moi
 Gattouz: [i](un petit baton se dresse)[/i]
