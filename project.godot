@@ -22,48 +22,51 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Claire": "res://test-project/Smartphone/Characters/Claire.dch",
-"Elina": "res://test-project/VisualNovel/Characters/Elina.dch",
+"Foule_Cuck": "res://Foule_Cuck.dch",
 "Gattouz": "res://Gattouz.dch",
-"Laurey": "res://test-project/Smartphone/Characters/Laurey.dch",
-"Leon": "res://test-project/VisualNovel/Characters/Leon.dch",
-"Narrator": "res://Narrator.dch",
-"Otto": "res://test-project/Smartphone/Characters/Otto.dch",
-"Player": "res://test-project/SmallRPG/Timelines/Player.dch",
-"Smith": "res://test-project/SmallRPG/Timelines/Smith.dch",
-"TC1_Simple": "res://test-project/FakeUnitTests/TC1_Simple.dch",
-"TC2 Simple2": "res://test-project/FakeUnitTests/TC2 Simple2.dch",
-"TC3_BasicPortraits": "res://test-project/FakeUnitTests/TC3_BasicPortraits.dch",
-"TC4_BasicPortraits2": "res://test-project/FakeUnitTests/TC4_BasicPortraits2.dch",
-"TC5_BasicPortraits3": "res://test-project/FakeUnitTests/TC5_BasicPortraits3.dch",
-"TC6_Style": "res://test-project/FakeUnitTests/TC6_Style.dch",
-"lettre": "res://lettre.dch",
-"speaker_1": "res://test-project/SpeakerStyle/speaker_1.dch",
-"speaker_2": "res://test-project/SpeakerStyle/speaker_2.dch"
+"Lettre": "res://Lettre.dch",
+"Narrator": "res://Narrator.dch"
 }
 directories/dtl_directory={
-"Chapter 10": "res://test-project/Chapter 10.dtl",
-"Chapter1": "res://Chapter1.dtl",
-"Claire": "res://test-project/Smartphone/Timelines/Claire.dtl",
-"Laurey": "res://test-project/Smartphone/Timelines/Laurey.dtl",
-"Otto": "res://test-project/Smartphone/Timelines/Otto.dtl",
-"Sock_Ending": "res://Sock_Ending.dtl",
-"isolated_visual_novel/Chapter 10": "res://isolated_visual_novel/Chapter 10.dtl",
-"rpg_smith": "res://test-project/SmallRPG/Timelines/rpg_smith.dtl",
-"speaker_tml_1": "res://test-project/SpeakerStyle/speaker_tml_1.dtl",
-"t0_overview": "res://test-project/FakeUnitTests/t0_overview.dtl",
-"t1_texts": "res://test-project/FakeUnitTests/t1_texts.dtl",
-"t2_characters": "res://test-project/FakeUnitTests/t2_characters.dtl",
-"t3_variables": "res://test-project/FakeUnitTests/t3_variables.dtl",
-"t4_styles": "res://test-project/FakeUnitTests/t4_styles.dtl",
-"t5_various_events": "res://test-project/FakeUnitTests/t5_various_events.dtl",
-"t6_audio": "res://test-project/FakeUnitTests/t6_audio.dtl",
-"t7_backgrounds": "res://test-project/FakeUnitTests/t7_backgrounds.dtl",
-"vn_beginning": "res://test-project/VisualNovel/Timelines/vn_beginning.dtl",
-"vn_chapter1": "res://test-project/VisualNovel/Timelines/vn_chapter1.dtl",
-"vn_ending": "res://test-project/VisualNovel/Timelines/vn_ending.dtl"
+"Chapter1": "res://Chapter_1.dtl",
+"Chapter_1": "res://Chapter_1.dtl",
+"Chapter_2": "res://Chapter_2.dtl",
+"Sock_Ending": "res://Sock_Ending.dtl"
 }
 layout/style_directory={}
+extensions_folder="res://addons/dialogic_additions"
+text/letter_speed=0.01
+text/initial_text_reveal_skippable=true
+text/text_reveal_skip_delay=0.1
+text/advance_delay=0.1
+text/autoadvance_per_character_delay=0.1
+text/autoadvance_ignored_characters_enabled=true
+animations/join_default_length=0.5
+animations/join_default_wait=true
+animations/leave_default_length=0.5
+animations/leave_default_wait=true
+animations/cross_fade_default_length=0.5
+save/autosave_delay=60.0
+save/encryption_on_exports_only=true
+choices/autofocus_first=true
+choices/delay=0.2
+choices/reveal_delay=0
+choices/reveal_by_input=false
+text/autopauses={}
+audio/channel_defaults={
+"": {
+"audio_bus": "",
+"fade_length": 0.0,
+"loop": false,
+"volume": 0.0
+},
+"music": {
+"audio_bus": "",
+"fade_length": 0.0,
+"loop": true,
+"volume": 0.0
+}
+}
 
 [editor_plugins]
 
