@@ -9,8 +9,7 @@ func _input(event: InputEvent) -> void:
 	if Dialogic.current_timeline != null:
 		return
 
-	if event is InputEventKey and event.keycode == KEY_ENTER and event.pressed:
-		Dialogic.start('chapter1')
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		Dialogic.start('Chapter_1')
 		get_viewport().set_input_as_handled()
-	
 	
