@@ -45,8 +45,8 @@ Narrator: Félicitations c'est gagné pour toi ! Gattouz redeviens tout blanc et
 Il se transforme !!!!!! HABIBI !
 leave --All-- [animation="Fade Out" length="2.0"]
 [wait time="2.0"]
-join Gattouz (BG) center
+join Gattouz (spiderman) center
 Gattouz: Merci mon pote de m'avoir aider ! Sur ces belles paroles
 Gattouz: Je m'en vais sauver khalamité et abattre ceux qui se dressent contre moi
 Gattouz: [i](un petit baton se dresse)[/i]
-jump Chapter_1/choix_debut
+[end_timeline]
