@@ -28,12 +28,18 @@ directories/dch_directory={
 "Gattouz": "res://storyline/Gattouz.dch",
 "Glitched_Woman": "res://storyline/Glitched_Woman.dch",
 "Lettre": "res://storyline/Lettre.dch",
+"Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
-"purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch"
+"coeur": "res://assets/mortadon/coeur.dch",
+"gatouzvert": "res://assets/mortadon/gatouzvert.dch",
+"purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch",
+"snack": "res://assets/mortadon/snack.dch"
 }
 directories/dtl_directory={
+"Brazil_Chapter": "res://storyline/Brazil_Chapter.dtl",
 "Chapter_1": "res://storyline/Chapter_1.dtl",
 "Chapter_2": "res://storyline/Chapter_2.dtl",
+"Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
 layout/style_directory={}
