@@ -22,20 +22,19 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"8_bits_npc": "res://8_bits_npc.dch",
-"Cuck_monk": "res://Cuck_monk.dch",
-"Foule_Cuck": "res://Foule_Cuck.dch",
-"Gattouz": "res://Gattouz.dch",
-"Glitched_Woman": "res://Glitched_Woman.dch",
-"Lettre": "res://Lettre.dch",
-"Narrator": "res://Narrator.dch",
-"purple_bearded_cuck": "res://purple_bearded_cuck.dch"
+"8_bits_npc": "res://storyline/8_bits_npc.dch",
+"Cuck_monk": "res://storyline/Cuck_monk.dch",
+"Foule_Cuck": "res://storyline/Foule_Cuck.dch",
+"Gattouz": "res://storyline/Gattouz.dch",
+"Glitched_Woman": "res://storyline/Glitched_Woman.dch",
+"Lettre": "res://storyline/Lettre.dch",
+"Narrator": "res://storyline/Narrator.dch",
+"purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch"
 }
 directories/dtl_directory={
-"Chapter1": "res://Chapter_1.dtl",
-"Chapter_1": "res://Chapter_1.dtl",
-"Chapter_2": "res://Chapter_2.dtl",
-"Sock_Ending": "res://Sock_Ending.dtl"
+"Chapter_1": "res://storyline/Chapter_1.dtl",
+"Chapter_2": "res://storyline/Chapter_2.dtl",
+"Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"

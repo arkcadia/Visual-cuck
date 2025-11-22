@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s8k07d1tosem"
-path="res://.godot/imported/gattouz_bg.png-424278da5196821ff61fcd77554e9539.ctex"
+uid="uid://dmgioopfx1jl7"
+path="res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://gattouz_bg.png"
-dest_files=["res://.godot/imported/gattouz_bg.png-424278da5196821ff61fcd77554e9539.ctex"]
+source_file="res://storyline/letter.png"
+dest_files=["res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"]
 
 [params]
 

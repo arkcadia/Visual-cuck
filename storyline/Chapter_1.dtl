@@ -1,8 +1,8 @@
-[background arg="res://black_background.jpg" fade="0.0"]
+[background arg="res://storyline/black_background.jpg" fade="0.0"]
 Narrator: Par une chaude nuit d’été, alors que les échos d’une fête meurent au loin, notre héros ouvre les yeux sur un sursaut brutal.
 Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revenait d’entre les morts.
 join Gattouz center
-Gattouz (BG): [i](haletant)[/i]\
+Gattouz: [i](haletant)[/i]\
 Où… où est-ce que je suis ?
 leave Gattouz
 Narrator: Il ne se souvient de rien. Le vide.
@@ -12,12 +12,12 @@ join Lettre center
 Lettre: Saint Gattouz, j’ai capturé Kalamité.\
 Le Cuck Land régnera en maître sur Tekpi City.
 Lettre: Signé \: CUCK LORD.
-leave Lettre 
+leave Lettre
 join Gattouz center
 Gattouz: [i](les yeux exorbités)[/i]\
 Quoi… ?
 Gattouz: Quoi ??
-leave Gattouz 
+leave Gattouz
 Narrator: Les pupilles du héros se dilatent.\
 Un souffle venu du fond de son âme explose.
 join Gattouz center
@@ -28,7 +28,6 @@ Gattouz: JE DOIS TE SAUVER !
 leave Gattouz
 Narrator: Fou, paniqué, exalté, il cherche une arme. Un outil. Une inspiration divine.
 Narrator: Mais dans ce taudis misérable, une seule chose semble encore debout…
-join Gattouz center
 - Chaise
 	jump Chapter_2/ChaiseChoisie
 - Chaussette

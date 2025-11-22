@@ -1,6 +1,6 @@
 label ChaiseChoisie
 
-join Gattouz center [animation="Instant In" length="0.0"]
+join Gattouz center
 Gattouz: [i](regardant la chaise)[/i]\
 Toi…
 Gattouz: ...
@@ -11,7 +11,7 @@ Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé d
 - Sortir
 
 [wait time="1.0"]
-[background arg="res://manifestation2.jpg" fade="0.0"]
+[background arg="res://storyline/manifestation2.jpg" fade="0.0"]
 
 Narrator: Dehors, des chants, des cris… des fumigènes roses.
 Narrator: Une manifestation a lieu à Cuck Land en faveur des cocus.
