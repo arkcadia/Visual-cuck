@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://hvl5sy7fnole"
+path="res://.godot/imported/IPHONE NOTIFICATION SOUND EFFECT (PING_DING).mp3-8e0310c6d60081a0ba8733df8ef4abbf.mp3str"
+
+[deps]
+
+source_file="res://assets/Gaytouzze/IPHONE NOTIFICATION SOUND EFFECT (PING_DING).mp3"
+dest_files=["res://.godot/imported/IPHONE NOTIFICATION SOUND EFFECT (PING_DING).mp3-8e0310c6d60081a0ba8733df8ef4abbf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
