@@ -1,9 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://ccqntl865eqmi"]
+[gd_scene load_steps=10 format=3 uid="uid://ccqntl865eqmi"]
 
 [ext_resource type="Script" uid="uid://b310vjoivqxkt" path="res://src/main.gd" id="1_3cfgd"]
 [ext_resource type="Texture2D" uid="uid://ccx1h5wy5hil4" path="res://assets/menu/menu_background.jpeg" id="1_eewff"]
 [ext_resource type="FontFile" uid="uid://bbwk4cong4hdu" path="res://assets/menu/PistonBlack-Regular.ttf" id="2_5q4o7"]
 [ext_resource type="FontFile" uid="uid://3g8f8savlcdd" path="res://assets/menu/Blast Dragon D.otf" id="3_3cfgd"]
+[ext_resource type="Script" uid="uid://c7iijlaa3h27k" path="res://src/menu.gd" id="3_5mrjc"]
 [ext_resource type="Script" uid="uid://c4blorpi3e0sc" path="res://src/display_selector.gd" id="6_5mrjc"]
 [ext_resource type="Texture2D" uid="uid://cj8dgkfb42mh2" path="res://assets/menu/ArrowsLeft.png" id="6_rlaii"]
 [ext_resource type="Texture2D" uid="uid://cdyol6o6mtctp" path="res://assets/menu/ArrowsRight.png" id="8_kf8lf"]
@@ -27,6 +28,7 @@ offset_left = -2.0
 offset_top = -7.0
 offset_right = 1147.0
 offset_bottom = 639.0
+script = ExtResource("3_5mrjc")
 
 [node name="Title" type="Label" parent="UI/Menu"]
 layout_mode = 0
@@ -38,29 +40,6 @@ theme_override_colors/font_color = Color(0.80784315, 0, 0, 1)
 theme_override_fonts/font = ExtResource("2_5q4o7")
 theme_override_font_sizes/font_size = 40
 text = "My BestfFriend is a chair"
-
-[node name="Display" type="Label" parent="UI/Menu"]
-layout_mode = 0
-offset_left = 348.0
-offset_top = 118.0
-offset_right = 562.0
-offset_bottom = 151.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_3cfgd")
-theme_override_font_sizes/font_size = 24
-text = "Display"
-text_direction = 1
-
-[node name="Label_Display" type="Label" parent="UI/Menu"]
-layout_mode = 0
-offset_left = 348.0
-offset_top = 159.0
-offset_right = 424.0
-offset_bottom = 185.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_fonts/font = ExtResource("3_3cfgd")
-theme_override_font_sizes/font_size = 19
-text = "Window"
 
 [node name="MainContain" type="VBoxContainer" parent="UI/Menu"]
 layout_mode = 1
@@ -77,6 +56,8 @@ grow_vertical = 2
 [node name="New game" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
@@ -87,7 +68,9 @@ alignment = 0
 [node name="Load game" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
@@ -95,10 +78,15 @@ text = "Load Game
 "
 alignment = 0
 
-[node name="Settings" type="Button" parent="UI/Menu/MainContain"]
+[node name="SettingsButton" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
-theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+theme_override_colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
@@ -109,7 +97,9 @@ alignment = 0
 [node name="About" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
@@ -120,7 +110,9 @@ alignment = 0
 [node name="Quit" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
@@ -128,10 +120,34 @@ text = "Quit"
 alignment = 0
 
 [node name="DisplaySelector" type="Control" parent="UI/Menu"]
+visible = false
 anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("6_5mrjc")
+
+[node name="Display" type="Label" parent="UI/Menu/DisplaySelector"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 118.0
+offset_right = 562.0
+offset_bottom = 151.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 24
+text = "Display"
+text_direction = 1
+
+[node name="Label_Display" type="Label" parent="UI/Menu/DisplaySelector"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 159.0
+offset_right = 424.0
+offset_bottom = 185.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 19
+text = "Window"
 
 [node name="LeftArrow" type="TextureButton" parent="UI/Menu/DisplaySelector"]
 layout_mode = 1
@@ -157,7 +173,7 @@ offset_right = -3.0517578e-05
 texture_normal = ExtResource("8_kf8lf")
 
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
-[connection signal="pressed" from="UI/Menu/MainContain/Load game" to="." method="_on_load_game_pressed"]
+
+[connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
+
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]
-[connection signal="pressed" from="UI/Menu/DisplaySelector/LeftArrow" to="UI/Menu/DisplaySelector" method="_on_left_arrow_pressed"]
-[connection signal="pressed" from="UI/Menu/DisplaySelector/RightArrow" to="UI/Menu/DisplaySelector" method="_on_right_arrow_pressed"]
