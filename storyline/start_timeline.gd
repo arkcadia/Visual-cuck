@@ -12,7 +12,7 @@ func _input(_event: InputEvent) -> void:
 	if Dialogic.current_timeline == null:
 		Dialogic.start("Chapter_1")
 		get_viewport().set_input_as_handled()
-	
+
 func _on_timeline_ended():
 	Dialogic.timeline_ended.disconnect(_on_timeline_ended)
 	get_tree().change_scene_to_file("res://src/main.tscn")

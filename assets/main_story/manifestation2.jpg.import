@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ceafm2fp7kwag"
-path="res://.godot/imported/8bit.png-3363223704fe1744d548cd6b97db7492.ctex"
+uid="uid://b455wsfgdcxp"
+path="res://.godot/imported/manifestation2.jpg-908f63cc5dbf9e648c600056c54d0625.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/8bit.png"
-dest_files=["res://.godot/imported/8bit.png-3363223704fe1744d548cd6b97db7492.ctex"]
+source_file="res://assets/main_story/manifestation2.jpg"
+dest_files=["res://.godot/imported/manifestation2.jpg-908f63cc5dbf9e648c600056c54d0625.ctex"]
 
 [params]
 

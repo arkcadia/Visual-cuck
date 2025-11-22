@@ -1,4 +1,10 @@
-[background arg="res://storyline/black_background.jpg" fade="0.0"]
+set {NPCS_visited} = 0
+set {Visited_8bits} = false
+set {Visited_Glitch} = false
+set {Visited_Moine} = false
+set {Sauce_pas_net} = false
+
+[background arg="res://assets/main_story/black_background.jpg" fade="0.0"]
 Narrator: Par une chaude nuit d’été, alors que les échos d’une fête meurent au loin, notre héros ouvre les yeux sur un sursaut brutal.
 Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revenait d’entre les morts.
 join Gattouz center
@@ -29,9 +35,11 @@ leave Gattouz
 Narrator: Fou, paniqué, exalté, il cherche une arme. Un outil. Une inspiration divine.
 Narrator: Mais dans ce taudis misérable, une seule chose semble encore debout…
 label choix_debut
+[background arg="res://assets/main_story/black_background.jpg" fade="0.0"]
 - Chaise
 	jump Chapter_2/ChaiseChoisie
 - Chaussette
 	jump Sock_Ending/SockEnding
-- La sauce brazil pas net
+- La sauce brazil pas nette | [if {Sauce_pas_net} == false]
+	set {Sauce_pas_net} = true
 	jump Brazil_Chapter/Brazil_sauce
