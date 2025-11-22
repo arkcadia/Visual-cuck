@@ -75,3 +75,32 @@ Stéph qui ?
 purple_bearded_cuck: Twingo...
 purple_bearded_cuck: On dit qu'il vit dans un manoir au centre de Tekpi City.
 purple_bearded_cuck: Il dirige une organisation dont personne ne revient vivant...
+leave --All-- 
+Narrator: À la mention de ce nom, tout explose dans l’esprit de Gattouz.
+Narrator: Des souvenirs, des éclats, des flashs.\
+Tout se recolle.
+join Gattouz center
+Gattouz: [i](serrant la chaise)[/i]\
+Stéph Twingo…
+Gattouz: Le manipulateur…
+Gattouz: Le menteur…
+Gattouz: L’empereur du chaos…
+leave Gattouz 
+Narrator: L’homme derrière la propagande.
+Narrator: Le maître de la manipulation.
+Narrator: Le dieu auto-proclamé du Cuck Land.
+join Gattouz center 
+Gattouz: [i](les yeux brûlant)[/i]\
+Il est... le CUCK LORD!!
+leave Gattouz 
+Narrator: Le sang de notre héro ne fait qu'un tour.
+Narrator: Sa chaise scintille sous la lune comme un sabre divin.
+join Gattouz center
+Gattouz: Kalamité, tiens bon.
+Gattouz: Twingo... j'arrive te vaincre !
+leave Gattouz 
+Narrator: Sans attendre, Gattouz s'élance vers le manoir qui domine Tekpi City.
+Narrator: Il court, poussé par le destin.
+Narrator: Mais il le sait, Stéph fera tout pour l'arrêter.
+[wait time="1.0"]
+[background arg="res://storyline/manoir." fade="0.0"]
