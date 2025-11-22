@@ -1,0 +1,77 @@
+label ChaiseChoisie
+
+join Gattouz center [animation="Instant In" length="0.0"]
+Gattouz: [i](regardant la chaise)[/i]\
+Toi…
+Gattouz: ...
+Gattouz: [i](prenant la chaise à deux mains)[/i]\
+Tu seras mon épée.
+leave Gattouz
+Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé de sa chaise, prêt à braver l'inimaginable.
+- Sortir
+
+[wait time="1.0"]
+[background arg="res://manifestation2.jpg" fade="0.0"]
+
+Narrator: Dehors, des chants, des cris… des fumigènes roses.
+Narrator: Une manifestation a lieu à Cuck Land en faveur des cocus.
+join Foule_Cuck center
+Foule_Cuck: [i](en choeur)[/i]\
+HONNEUR À CHARLIE !
+Foule_Cuck: LE CUCK LAND NE PÉRIRA JAMAIS !
+Foule_Cuck: TOUT EST DE LA FAUTE DE KALAMITÉ !
+leave Foule_Cuck
+join Gattouz center
+Gattouz: [i](murmure)[/i]\
+Comment osent-ils... accuser Kalamité... ces fous...
+leave Gattouz
+Narrator: Se cachant derrière sa chaise tel un bouclier légendaire, il s'approche de ces individus étranges.
+
+label ChooseNpcDialog
+leave --All--
+
+if {NPCS_visited} == 3:
+	jump VisitedAll
+
+Narrator: Gattouz se dirige vers un des manifestants.
+- Vendeur 8 Bits | [if {Visited_8bits} == false]
+	set {NPCS_visited} += 1
+	set {Visited_8bits} = true
+	join Gattouz left
+	join 8_bits_npc right
+	Gattouz: Toi ! Où est Kalamité ?
+	8_bits_npc: [i](d'une voix robotique)[/i]\
+	K-Ka-Kalamité… erreur… texture non trouvée…
+	jump ChooseNpcDialog
+- Moine Cuck | [if {Visited_Moine} == false]
+	set {NPCS_visited} += 1
+	set {Visited_Moine} = true
+	join Gattouz left
+	join Cuck_monk right
+	Gattouz: Hé ! L’homme qui flotte comme une erreur de gravité ! Parle !
+	Cuck_monk: [i](chantant)[/i]\
+	Kalamité… n’est plus… paix et moustaches pour Charlie…
+	jump ChooseNpcDialog
+- Femme Glitchée | [if {Visited_Glitch} == false]
+	set {NPCS_visited} += 1
+	set {Visited_Glitch} = true
+	join Gattouz left
+	join Glitched_Woman right
+	Gattouz: Toi ! Les mains-fusion ! Où est Kalamité !?
+	Glitched_Woman: [i](son corps clignote étrangement)[/i]\
+	Je… je… disparais… à l'aide…
+jump ChooseNpcDialog
+
+label VisitedAll
+
+Narrator: Finalement, un cocu à la barbe violette s'approche, tremblant.
+join Gattouz left
+join purple_bearded_cuck right
+purple_bearded_cuck: [i](chuchotant)[/i]\
+Tu... cherches Kalamité... n'est-ce pas ?
+purple_bearded_cuck: Il y a un homme... Stéph... Stéph Twingo...
+Gattouz: [i](haussant un sourcil)[/i]\
+Stéph qui ?
+purple_bearded_cuck: Twingo...
+purple_bearded_cuck: On dit qu'il vit dans un manoir au centre de Tekpi City.
+purple_bearded_cuck: Il dirige une organisation dont personne ne revient vivant...

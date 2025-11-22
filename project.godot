@@ -32,7 +32,10 @@ directories/dch_directory={
 "purple_bearded_cuck": "res://purple_bearded_cuck.dch"
 }
 directories/dtl_directory={
-"Chapter_2": "res://Chapter_2.dtl"
+"Chapter1": "res://Chapter_1.dtl",
+"Chapter_1": "res://Chapter_1.dtl",
+"Chapter_2": "res://Chapter_2.dtl",
+"Sock_Ending": "res://Sock_Ending.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
