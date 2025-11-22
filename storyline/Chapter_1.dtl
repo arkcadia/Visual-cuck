@@ -1,34 +1,34 @@
 [background arg="res://storyline/black_background.jpg" fade="0.0"]
-storyline/Narrator: Par une chaude nuit d’été, alors que les échos d’une fête meurent au loin, notre héros ouvre les yeux sur un sursaut brutal.
-storyline/Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revenait d’entre les morts.
-join storyline/Gattouz center
-storyline/Gattouz: [i](haletant)[/i]\
+Narrator: Par une chaude nuit d’été, alors que les échos d’une fête meurent au loin, notre héros ouvre les yeux sur un sursaut brutal.
+Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revenait d’entre les morts.
+join Gattouz center
+Gattouz: [i](haletant)[/i]\
 Où… où est-ce que je suis ?
-leave storyline/Gattouz
-storyline/Narrator: Il ne se souvient de rien. Le vide.
-storyline/Narrator: Devant lui, une ampoule mourante grésille comme une mouche à l’agonie.
-storyline/Narrator: Sur la porte, un mot, griffonné à la hâte.
-join storyline/Lettre center
-storyline/Lettre: Saint Gattouz, j’ai capturé Kalamité.\
+leave Gattouz
+Narrator: Il ne se souvient de rien. Le vide.
+Narrator: Devant lui, une ampoule mourante grésille comme une mouche à l’agonie.
+Narrator: Sur la porte, un mot, griffonné à la hâte.
+join Lettre center
+Lettre: Saint Gattouz, j’ai capturé Kalamité.\
 Le Cuck Land régnera en maître sur Tekpi City.
-storyline/Lettre: Signé \: CUCK LORD.
-leave storyline/Lettre
-join storyline/Gattouz center
-storyline/Gattouz: [i](les yeux exorbités)[/i]\
+Lettre: Signé \: CUCK LORD.
+leave Lettre
+join Gattouz center
+Gattouz: [i](les yeux exorbités)[/i]\
 Quoi… ?
-storyline/Gattouz: Quoi ??
-leave storyline/Gattouz
-storyline/Narrator: Les pupilles du héros se dilatent.\
+Gattouz: Quoi ??
+leave Gattouz
+Narrator: Les pupilles du héros se dilatent.\
 Un souffle venu du fond de son âme explose.
-join storyline/Gattouz center
-storyline/Gattouz: [i](cri primal)[/i]\
+join Gattouz center
+Gattouz: [i](cri primal)[/i]\
 HABIBI !
-storyline/Gattouz: KALAMITÉ !!
-storyline/Gattouz: JE DOIS TE SAUVER !
-leave storyline/Gattouz
-storyline/Narrator: Fou, paniqué, exalté, il cherche une arme. Un outil. Une inspiration divine.
-storyline/Narrator: Mais dans ce taudis misérable, une seule chose semble encore debout…
+Gattouz: KALAMITÉ !!
+Gattouz: JE DOIS TE SAUVER !
+leave Gattouz
+Narrator: Fou, paniqué, exalté, il cherche une arme. Un outil. Une inspiration divine.
+Narrator: Mais dans ce taudis misérable, une seule chose semble encore debout…
 - Chaise
-	jump storyline/Chapter_2/ChaiseChoisie
+	jump Chapter_2/ChaiseChoisie
 - Chaussette
-	jump storyline/Sock_Ending/SockEnding
+	jump Sock_Ending/SockEnding
