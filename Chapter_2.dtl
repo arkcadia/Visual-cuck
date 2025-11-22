@@ -1,5 +1,6 @@
 label ChaiseChoisie
 
+join Gattouz center [animation="Instant In" length="0.0"]
 Gattouz: [i](regardant la chaise)[/i]\
 Toi…
 Gattouz: ...
@@ -27,13 +28,13 @@ leave Gattouz
 Narrator: Se cachant derrière sa chaise tel un bouclier légendaire, il s'approche de ces individus étranges.
 
 label ChooseNpcDialog
-leave --All-- 
+leave --All--
 
 if {NPCS_visited} == 3:
 	jump VisitedAll
 
 Narrator: Gattouz se dirige vers un des manifestants.
-- Vendeur 8 Bits | [if {Visited_8bits} == false] [else "hide"]
+- Vendeur 8 Bits | [if {Visited_8bits} == false]
 	set {NPCS_visited} += 1
 	set {Visited_8bits} = true
 	join Gattouz left
@@ -42,7 +43,7 @@ Narrator: Gattouz se dirige vers un des manifestants.
 	8_bits_npc: [i](d'une voix robotique)[/i]\
 	K-Ka-Kalamité… erreur… texture non trouvée…
 	jump ChooseNpcDialog
-- Moine Cuck | [if {Visited_Moine} == false] [else "hide"]
+- Moine Cuck | [if {Visited_Moine} == false]
 	set {NPCS_visited} += 1
 	set {Visited_Moine} = true
 	join Gattouz left
@@ -51,14 +52,26 @@ Narrator: Gattouz se dirige vers un des manifestants.
 	Cuck_monk: [i](chantant)[/i]\
 	Kalamité… n’est plus… paix et moustaches pour Charlie…
 	jump ChooseNpcDialog
-- Femme Glitchée | [if {Visited_Glitch} == false] [else "hide"]
+- Femme Glitchée | [if {Visited_Glitch} == false]
 	set {NPCS_visited} += 1
 	set {Visited_Glitch} = true
 	join Gattouz left
 	join Glitched_Woman right
 	Gattouz: Toi ! Les mains-fusion ! Où est Kalamité !?
- 	Glitched_Woman: [i](son corps clignote étrangement)[/i]\
- 	Je… je… disparais… à l'aide…
-	jump ChooseNpcDialog
+	Glitched_Woman: [i](son corps clignote étrangement)[/i]\
+	Je… je… disparais… à l'aide…
+jump ChooseNpcDialog
 
 label VisitedAll
+
+Narrator: Finalement, un cocu à la barbe violette s'approche, tremblant.
+join Gattouz left
+join purple_bearded_cuck right
+purple_bearded_cuck: [i](chuchotant)[/i]\
+Tu... cherches Kalamité... n'est-ce pas ?
+purple_bearded_cuck: Il y a un homme... Stéph... Stéph Twingo...
+Gattouz: [i](haussant un sourcil)[/i]\
+Stéph qui ?
+purple_bearded_cuck: Twingo...
+purple_bearded_cuck: On dit qu'il vit dans un manoir au centre de Tekpi City.
+purple_bearded_cuck: Il dirige une organisation dont personne ne revient vivant...
