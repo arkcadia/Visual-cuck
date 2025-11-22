@@ -1,4 +1,4 @@
-[background arg="res://storyline/black_background.jpg" fade="0.0"]
+[background arg="res://assets/main_story/black_background.jpg" fade="0.0"]
 Narrator: Par une chaude nuit d’été, alors que les échos d’une fête meurent au loin, notre héros ouvre les yeux sur un sursaut brutal.
 Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revenait d’entre les morts.
 join Gattouz center

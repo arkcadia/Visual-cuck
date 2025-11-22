@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ccx1h5wy5hil4" path="res://assets/menu/menu_background.jpeg" id="1_eewff"]
 [ext_resource type="FontFile" uid="uid://bbwk4cong4hdu" path="res://assets/menu/PistonBlack-Regular.ttf" id="2_5q4o7"]
 [ext_resource type="FontFile" uid="uid://3g8f8savlcdd" path="res://assets/menu/Blast Dragon D.otf" id="3_3cfgd"]
-[ext_resource type="Script" uid="uid://c7iijlaa3h27k" path="res://src/menu.gd" id="3_5mrjc"]
+[ext_resource type="Script" path="res://src/menu.gd" id="3_5mrjc"]
 [ext_resource type="Script" uid="uid://c4blorpi3e0sc" path="res://src/display_selector.gd" id="6_5mrjc"]
 [ext_resource type="Texture2D" uid="uid://cj8dgkfb42mh2" path="res://assets/menu/ArrowsLeft.png" id="6_rlaii"]
 [ext_resource type="Texture2D" uid="uid://cdyol6o6mtctp" path="res://assets/menu/ArrowsRight.png" id="8_kf8lf"]
@@ -173,7 +173,5 @@ offset_right = -3.0517578e-05
 texture_normal = ExtResource("8_kf8lf")
 
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
-
 [connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
-
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]

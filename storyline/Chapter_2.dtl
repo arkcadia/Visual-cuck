@@ -11,7 +11,7 @@ Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé d
 - Sortir
 
 [wait time="1.0"]
-[background arg="res://storyline/manifestation2.jpg" fade="0.0"]
+[background arg="res://assets/main_story/manifestation2.jpg" fade="0.0"]
 
 Narrator: Dehors, des chants, des cris… des fumigènes roses.
 Narrator: Une manifestation a lieu à Cuck Land en faveur des cocus.
@@ -103,3 +103,4 @@ Narrator: Sans attendre, Gattouz s'élance vers le manoir qui domine Tekpi City.
 Narrator: Il court, poussé par le destin.
 Narrator: Mais il le sait, Stéph fera tout pour l'arrêter.
 [wait time="1.0"]
+[background arg="res://assets/main_story/manoircuck.jpg" fade="0.0"]

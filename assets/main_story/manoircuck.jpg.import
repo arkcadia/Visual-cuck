@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmgioopfx1jl7"
-path="res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"
+uid="uid://dbhb4vipynygi"
+path="res://.godot/imported/manoircuck.jpg-2b71c786b269b651680d35a8055f728e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/letter.png"
-dest_files=["res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"]
+source_file="res://assets/main_story/manoircuck.jpg"
+dest_files=["res://.godot/imported/manoircuck.jpg-2b71c786b269b651680d35a8055f728e.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4i3lew37pxj6"
-path="res://.godot/imported/glitched_woman.png-bfae0633dcddff9719e04b69ba7054e4.ctex"
+uid="uid://c7inmic2rtawv"
+path="res://.godot/imported/cuck_monk.png-4f71bc6030fb2cfc971755f9da6c1dc4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/glitched_woman.png"
-dest_files=["res://.godot/imported/glitched_woman.png-bfae0633dcddff9719e04b69ba7054e4.ctex"]
+source_file="res://assets/main_story/cuck_monk.png"
+dest_files=["res://.godot/imported/cuck_monk.png-4f71bc6030fb2cfc971755f9da6c1dc4.ctex"]
 
 [params]
 

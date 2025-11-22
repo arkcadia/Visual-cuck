@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da3810o7vihgi"
-path="res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"
+uid="uid://d0jpqkpmj5dky"
+path="res://.godot/imported/violet_beard_cuck.png-114f454497f77d7e13141d099368fa46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/black_background.jpg"
-dest_files=["res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"]
+source_file="res://assets/main_story/violet_beard_cuck.png"
+dest_files=["res://.godot/imported/violet_beard_cuck.png-114f454497f77d7e13141d099368fa46.ctex"]
 
 [params]
 

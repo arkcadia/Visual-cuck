@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s8k07d1tosem"
-path="res://.godot/imported/gattouz_bg.png-01203e85b186da84621204b90c3c66dd.ctex"
+uid="uid://d4i3lew37pxj6"
+path="res://.godot/imported/glitched_woman.png-2933e463a2a060fb4d55f883226fe402.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/gattouz_bg.png"
-dest_files=["res://.godot/imported/gattouz_bg.png-01203e85b186da84621204b90c3c66dd.ctex"]
+source_file="res://assets/main_story/glitched_woman.png"
+dest_files=["res://.godot/imported/glitched_woman.png-2933e463a2a060fb4d55f883226fe402.ctex"]
 
 [params]
 

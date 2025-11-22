@@ -43,9 +43,7 @@ directories/dtl_directory={
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
-layout/style_directory={
-"VisualNovelStyle": "res://test/VisualNovelStyle.tres"
-}
+layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -88,10 +86,6 @@ variables={
 layout/style_list=["", "res://test/VisualNovelStyle.tres"]
 layout/default_style="res://test/CustomTestStyle/testing_style.tres"
 glossary/default_case_sensitive=true
-
-[display]
-
-window/stretch/mode="canvas_items"
 
 [display]
 
