@@ -10,6 +10,8 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 
+func _on_new_game_pressed() -> void:
+	pass
 
 func _on_quit_pressed() -> void:
 	get_tree().quit()
