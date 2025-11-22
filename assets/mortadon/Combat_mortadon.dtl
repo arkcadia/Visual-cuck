@@ -1,12 +1,69 @@
 [background arg="res://assets/mortadon/snack.png" fade="0.0"]
 
-Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment vous se reglez nos combattants Chaque combattants à trois vies
-Narrator : c'est à vous joueur de répondre correctement aux questions pour que le Lord Gattouz puissent découper ce vendeur de Sandwich !
+Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment ce combat va se finir.
+Narrator: C'est à vous joueur de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
 
 join Mortadon (boss) left [animation="Bounce In" length="2.0"]
-join gatouzvert right [animation="Bounce In" length="2.0"]
-join coeur (3coeur) center [animation="Bounce In" length="2.0"]
+join Gattouz right [animation="Bounce In" length="2.0"]
 join coeur (3coeurvert) rightmost [animation="Bounce In" length="2.0"]
+join coeurouge (3coeur) leftmost
 
 Gattouz: HABIBI !
-Mortadon: MONSTRE ! DOUBLE MONSTRE !
+Mortadon: MONSTRE ! DOUBLE MONSTRE !!
+Narrator: Première question ! Quel est le métier de Gattouz ??
+label Première question
+- Acteur porno
+	Narrator: Félicitations prochaine question !
+- Joueur de Scrabble Professionnel
+	Tes débile mec, c'est logique on connait tous gattouz pour ces parties de jambe en l'air
+	jump Combat_mortadon/Première question
+
+leave coeurouge
+join coeurouge (2coeur) leftmost [animation="Bounce In" length="2.0"]
+label deuxième_question
+Narrator: Deuxième question ! Devenir un cuck man est une pratique \:
+- Religieuse
+	Narrator: FAUX ! FAUX ! Recommence !
+	jump Combat_mortadon/deuxième_question
+- Sexuel
+	Mortadon: Félicitation prochain et dernière question pour abattre Mortadon
+leave coeurouge
+join coeurouge (1coeur) leftmost
+Gattouz: Mashallah khoya !
+Narrator: A vu d'oeil Gattouz commence à retrouver ses couleurs !
+label Troisieme_question
+Narrator: Dernière question !  Quel footballeur a été incarcérer pour avoir commis 7 viol ?? Interessant non ?
+- Hakimi
+	Narrator: Tu dis ca parce qu'il est un peu ... un peu ...
+	jump Troisieme_question
+- Benjamin Mendy
+	jump Fin_question
+- Dani Alves
+	Narrator: Et non Dani a été incarcérer pour agression sexuelle uniquement ! Quel chance
+	jump Troisieme_question
+label Fin_question
+Narrator: Félicitations !
+Narrator: C'est gagné pour toi ! Gattouz redeviens tout blanc et attend...\
+Il se transforme !
+leave --All-- [animation="Fade Out" length="2.0"]
+[wait time="2.0"]
+join Gattouz (spiderman) center
+Gattouz: Merci mon pote de m'avoir aidé !
+Gattouz: Après ce rude combat j'ai sauvagement faim...
+Gattouz: Je m'en vais en direction du Burger King de Pau !!
+Gattouz: Halal ou pas Halal je m'en bat les couilles !!
+leave Gattouz 
+
+[wait time="1.0"]
+[background arg="res://assets/mortadon/burgerking_pau.jpg" fade="0.0"]
+
+Narrator: Après un court trajet,\
+Gattouz arrive devant le Burger King à pau route de Tarbes.
+Narrator: Il commande un menu mystère espérant trouver un double steakhouse.
+Narrator: Mais ce gros noob tombe sur un [b]SALE[/b] Big Fish.
+join Gattouz (spiderman) left
+join McFish right
+McFish: Bah alors loser t'es tombé sur moi ou quoi?
+McFish: Aller retourne te pignouf sur des Schtroumpfs.
+
+[end_timeline]

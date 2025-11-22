@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj00xhdfa8dnk"
-path="res://.godot/imported/cum_sock.jpg-b26f40dbd57ea4b69a0f3e79847e15ad.ctex"
+uid="uid://dvwtibe2yccx5"
+path="res://.godot/imported/bigfish.jpg-b5da29485934998b11d05aec41d4169a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/cum_sock.jpg"
-dest_files=["res://.godot/imported/cum_sock.jpg-b26f40dbd57ea4b69a0f3e79847e15ad.ctex"]
+source_file="res://assets/menu/bigfish.jpg"
+dest_files=["res://.godot/imported/bigfish.jpg-b5da29485934998b11d05aec41d4169a.ctex"]
 
 [params]
 

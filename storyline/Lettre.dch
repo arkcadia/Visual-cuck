@@ -19,7 +19,7 @@
 &"portraits": {
 "Default": {
 "export_overrides": {
-"image": "\"res://storyline/letter.png\""
+"image": "\"res://assets/main_story/letter.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

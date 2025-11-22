@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dmgioopfx1jl7"
-path="res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"
+uid="uid://d4i3lew37pxj6"
+path="res://.godot/imported/glitched_woman.png-2933e463a2a060fb4d55f883226fe402.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/letter.png"
-dest_files=["res://.godot/imported/letter.png-83de00dbcc20e505a3760800bd53b7d3.ctex"]
+source_file="res://assets/main_story/glitched_woman.png"
+dest_files=["res://.godot/imported/glitched_woman.png-2933e463a2a060fb4d55f883226fe402.ctex"]
 
 [params]
 

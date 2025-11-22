@@ -11,7 +11,7 @@ Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé d
 - Sortir
 
 [wait time="1.0"]
-[background arg="res://storyline/manifestation2.jpg" fade="0.0"]
+[background arg="res://assets/main_story/manifestation2.jpg" fade="0.0"]
 
 Narrator: Dehors, des chants, des cris… des fumigènes roses.
 Narrator: Une manifestation a lieu à Cuck Land en faveur des cocus.
@@ -82,13 +82,12 @@ Tout se recolle.
 join Gattouz center
 Gattouz: [i](serrant la chaise)[/i]\
 Stéph Twingo…
-Gattouz: Le manipulateur…
-Gattouz: Le menteur…
-Gattouz: L’empereur du chaos…
-leave Gattouz
-Narrator: L’homme derrière la propagande.
-Narrator: Le maître de la manipulation.
-Narrator: Le dieu auto-proclamé du Cuck Land.
+Gattouz: Le manipulateur…\
+Le menteur…
+Gattouz: L’empereur du chaos…\
+L’homme derrière la propagande.
+Gattouz: Le maître de la manipulation.\
+Le dieu auto-proclamé du Cuck Land.
 join Gattouz center
 Gattouz: [i](les yeux brûlant)[/i]\
 Il est... le CUCK LORD!!
@@ -107,3 +106,8 @@ label Notification
 - Ouvrir la notification
 	jump Gayttouze_Chapter/Gayttouze
 [wait time="1.0"]
+join Gattouz center
+Gattouz: La guerre commence maintenant.
+
+- En route pour le manoir
+	jump Chapter_3/Debut_Chapitre_3

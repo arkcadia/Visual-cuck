@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://da3810o7vihgi"
-path="res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"
+uid="uid://dgwtuiiseqpi6"
+path="res://.godot/imported/cropped_street.png-a8a87fe01624eadee826e42be2c04d47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/black_background.jpg"
-dest_files=["res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"]
+source_file="res://assets/main_story/cropped_street.png"
+dest_files=["res://.godot/imported/cropped_street.png-a8a87fe01624eadee826e42be2c04d47.ctex"]
 
 [params]
 

@@ -20,7 +20,7 @@
 &"portraits": {
 "BG": {
 "export_overrides": {
-"image": "\"res://storyline/gattouz_bg.png\""
+"image": "\"res://assets/main_story/gattouz_bg.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
@@ -30,6 +30,24 @@
 "Super Saiyan": {
 "export_overrides": {
 "image": ""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"spiderman": {
+"export_overrides": {
+"image": "\"res://assets/mortadon/image-removebg-preview.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"vert": {
+"export_overrides": {
+"image": "\"res://assets/mortadon/gattouzvert.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

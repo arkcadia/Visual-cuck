@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s8k07d1tosem"
-path="res://.godot/imported/gattouz_bg.png-01203e85b186da84621204b90c3c66dd.ctex"
+uid="uid://bj00xhdfa8dnk"
+path="res://.godot/imported/cum_sock.jpg-fca8c321e9c32a79480fcad845b0e9cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/gattouz_bg.png"
-dest_files=["res://.godot/imported/gattouz_bg.png-01203e85b186da84621204b90c3c66dd.ctex"]
+source_file="res://assets/main_story/cum_sock.jpg"
+dest_files=["res://.godot/imported/cum_sock.jpg-fca8c321e9c32a79480fcad845b0e9cd.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7inmic2rtawv"
-path="res://.godot/imported/cuck_monk.png-5c4665801bd2a9d8de70d013372a6702.ctex"
+uid="uid://dmiffqtp1kn3b"
+path="res://.godot/imported/socks.jpg-9872aa5d098fde2367eff0b9dde60eca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://storyline/cuck_monk.png"
-dest_files=["res://.godot/imported/cuck_monk.png-5c4665801bd2a9d8de70d013372a6702.ctex"]
+source_file="res://assets/menu/socks.jpg"
+dest_files=["res://.godot/imported/socks.jpg-9872aa5d098fde2367eff0b9dde60eca.ctex"]
 
 [params]
 
