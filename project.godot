@@ -29,9 +29,11 @@ directories/dch_directory={
 "Cuck_monk": "res://storyline/Cuck_monk.dch",
 "Foule_Cuck": "res://storyline/Foule_Cuck.dch",
 "Gattouz": "res://storyline/Gattouz.dch",
+"Gayttouz": "res://assets/Gaytouzze/Gayttouz.dch",
 "Glitched_Woman": "res://storyline/Glitched_Woman.dch",
+"Grinder": "res://Grinder.dch",
 "Lettre": "res://storyline/Lettre.dch",
-"McFish": "res://McFish.dch",
+"Lil Nas X": "res://Lil Nas X.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
 "adorateur_1": "res://assets/main_story/adorateur_1.dch",
@@ -50,6 +52,7 @@ directories/dtl_directory={
 "Chapter_3": "res://assets/mortadon/Chapter_3.dtl",
 "Chapter_4": "res://storyline/Chapter_4.dtl",
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
+"Gayttouze_Chapter": "res://Gayttouze_Chapter.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
 layout/style_directory={}
@@ -95,13 +98,10 @@ variables={
 "Visited_Glitch": false,
 "Visited_Moine": false
 }
+layout/style_list=[]
 glossary/default_case_sensitive=true
 layout/style_list=["", "res://test/VisualNovelStyle.tres"]
 layout/default_style="res://test/CustomTestStyle/testing_style.tres"
-
-[display]
-
-window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
