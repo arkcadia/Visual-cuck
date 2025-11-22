@@ -6,7 +6,7 @@ extends Control
 @onready var volume_slider = $DisplaySelector/VolumeSlider
 @onready var main_menu = $MainContain
 @onready var title = $Title
-@onready var endings = $Control
+@onready var endings = $Endings
 var settings_open = false
 
 func _ready():
@@ -15,6 +15,7 @@ func _ready():
 	music_player.play()
 func _on_settings_button_pressed():
 	display_menu.visible = !display_menu.visible 
+	settings_open = !settings_open
 
 
 func _on_h_slider_value_changed(value: float) -> void:
@@ -25,6 +26,9 @@ func _on_h_slider_value_changed(value: float) -> void:
 func _on_ending_pressed() -> void:
 	main_menu.visible = !main_menu.visible
 	title.visible = !title.visible
+	if (settings_open == true):
+		display_menu.visible = !display_menu.visible
+		settings_open = false
 	endings.visible = !endings.visible
 
 
