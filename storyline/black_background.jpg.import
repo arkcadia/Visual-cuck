@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b455wsfgdcxp"
-path="res://.godot/imported/manifestation2.jpg-f86789732e6486886c6c7891266dc01b.ctex"
+uid="uid://da3810o7vihgi"
+path="res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://manifestation2.jpg"
-dest_files=["res://.godot/imported/manifestation2.jpg-f86789732e6486886c6c7891266dc01b.ctex"]
+source_file="res://storyline/black_background.jpg"
+dest_files=["res://.godot/imported/black_background.jpg-fb725e8d93783136bcc9b342116a51db.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bj00xhdfa8dnk"
-path="res://.godot/imported/cum_sock.jpg-d1411547aac590cb4766f2edf38ab4c1.ctex"
+uid="uid://b455wsfgdcxp"
+path="res://.godot/imported/manifestation2.jpg-92385edc0e39e05142907909330a4d09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://cum_sock.jpg"
-dest_files=["res://.godot/imported/cum_sock.jpg-d1411547aac590cb4766f2edf38ab4c1.ctex"]
+source_file="res://storyline/manifestation2.jpg"
+dest_files=["res://.godot/imported/manifestation2.jpg-92385edc0e39e05142907909330a4d09.ctex"]
 
 [params]
 

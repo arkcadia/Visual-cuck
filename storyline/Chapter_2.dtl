@@ -1,0 +1,77 @@
+label ChaiseChoisie
+
+join storyline/Gattouz center
+storyline/Gattouz: [i](regardant la chaise)[/i]\
+Toi…
+storyline/Gattouz: ...
+storyline/Gattouz: [i](prenant la chaise à deux mains)[/i]\
+Tu seras mon épée.
+leave storyline/Gattouz
+storyline/Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé de sa chaise, prêt à braver l'inimaginable.
+- Sortir
+
+[wait time="1.0"]
+[background arg="res://storyline/manifestation2.jpg" fade="0.0"]
+
+storyline/Narrator: Dehors, des chants, des cris… des fumigènes roses.
+storyline/Narrator: Une manifestation a lieu à Cuck Land en faveur des cocus.
+join storyline/Foule_Cuck center
+storyline/Foule_Cuck: [i](en choeur)[/i]\
+HONNEUR À CHARLIE !
+storyline/Foule_Cuck: LE CUCK LAND NE PÉRIRA JAMAIS !
+storyline/Foule_Cuck: TOUT EST DE LA FAUTE DE KALAMITÉ !
+leave storyline/Foule_Cuck
+join storyline/Gattouz center
+storyline/Gattouz: [i](murmure)[/i]\
+Comment osent-ils... accuser Kalamité... ces fous...
+leave storyline/Gattouz
+storyline/Narrator: Se cachant derrière sa chaise tel un bouclier légendaire, il s'approche de ces individus étranges.
+
+label ChooseNpcDialog
+leave --All--
+
+if {NPCS_visited} == 3:
+	jump VisitedAll
+
+storyline/Narrator: Gattouz se dirige vers un des manifestants.
+- Vendeur 8 Bits | [if {Visited_8bits} == false]
+	set {NPCS_visited} += 1
+	set {Visited_8bits} = true
+	join storyline/Gattouz left
+	join storyline/8_bits_npc right
+	storyline/Gattouz: Toi ! Où est Kalamité ?
+	storyline/8_bits_npc: [i](d'une voix robotique)[/i]\
+	K-Ka-Kalamité… erreur… texture non trouvée…
+	jump ChooseNpcDialog
+- Moine Cuck | [if {Visited_Moine} == false]
+	set {NPCS_visited} += 1
+	set {Visited_Moine} = true
+	join storyline/Gattouz left
+	join storyline/Cuck_monk right
+	storyline/Gattouz: Hé ! L’homme qui flotte comme une erreur de gravité ! Parle !
+	storyline/Cuck_monk: [i](chantant)[/i]\
+	Kalamité… n’est plus… paix et moustaches pour Charlie…
+	jump ChooseNpcDialog
+- Femme Glitchée | [if {Visited_Glitch} == false]
+	set {NPCS_visited} += 1
+	set {Visited_Glitch} = true
+	join storyline/Gattouz left
+	join storyline/Glitched_Woman right
+	storyline/Gattouz: Toi ! Les mains-fusion ! Où est Kalamité !?
+	storyline/Glitched_Woman: [i](son corps clignote étrangement)[/i]\
+	Je… je… disparais… à l'aide…
+jump ChooseNpcDialog
+
+label VisitedAll
+
+storyline/Narrator: Finalement, un cocu à la barbe violette s'approche, tremblant.
+join storyline/Gattouz left
+join storyline/purple_bearded_cuck right
+storyline/purple_bearded_cuck: [i](chuchotant)[/i]\
+Tu... cherches Kalamité... n'est-ce pas ?
+storyline/purple_bearded_cuck: Il y a un homme... Stéph... Stéph Twingo...
+storyline/Gattouz: [i](haussant un sourcil)[/i]\
+Stéph qui ?
+storyline/purple_bearded_cuck: Twingo...
+storyline/purple_bearded_cuck: On dit qu'il vit dans un manoir au centre de Tekpi City.
+storyline/purple_bearded_cuck: Il dirige une organisation dont personne ne revient vivant...
