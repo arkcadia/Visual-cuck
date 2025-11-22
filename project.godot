@@ -22,8 +22,11 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"8_bits_npc": "res://8_bits_npc.dch",
+"Cuck_monk": "res://Cuck_monk.dch",
 "Foule_Cuck": "res://Foule_Cuck.dch",
 "Gattouz": "res://Gattouz.dch",
+"Glitched_Woman": "res://Glitched_Woman.dch",
 "Lettre": "res://Lettre.dch",
 "Narrator": "res://Narrator.dch"
 }
@@ -66,6 +69,12 @@ audio/channel_defaults={
 "loop": true,
 "volume": 0.0
 }
+}
+variables={
+"NPCS_visited": 0,
+"Visited_8bits": false,
+"Visited_Glitch": false,
+"Visited_Moine": false
 }
 
 [editor_plugins]
