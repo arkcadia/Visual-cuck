@@ -11,5 +11,72 @@ config_version=5
 [application]
 
 config/name="The visual cuck"
+run/main_scene="uid://8bkwxatecopm"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+
+[dialogic]
+
+directories/dch_directory={
+"Claire": "res://test-project/Smartphone/Characters/Claire.dch",
+"Elina": "res://test-project/VisualNovel/Characters/Elina.dch",
+"Gattouz": "res://Gattouz.dch",
+"Laurey": "res://test-project/Smartphone/Characters/Laurey.dch",
+"Leon": "res://test-project/VisualNovel/Characters/Leon.dch",
+"Narrator": "res://Narrator.dch",
+"Otto": "res://test-project/Smartphone/Characters/Otto.dch",
+"Player": "res://test-project/SmallRPG/Timelines/Player.dch",
+"Smith": "res://test-project/SmallRPG/Timelines/Smith.dch",
+"TC1_Simple": "res://test-project/FakeUnitTests/TC1_Simple.dch",
+"TC2 Simple2": "res://test-project/FakeUnitTests/TC2 Simple2.dch",
+"TC3_BasicPortraits": "res://test-project/FakeUnitTests/TC3_BasicPortraits.dch",
+"TC4_BasicPortraits2": "res://test-project/FakeUnitTests/TC4_BasicPortraits2.dch",
+"TC5_BasicPortraits3": "res://test-project/FakeUnitTests/TC5_BasicPortraits3.dch",
+"TC6_Style": "res://test-project/FakeUnitTests/TC6_Style.dch",
+"lettre": "res://lettre.dch",
+"speaker_1": "res://test-project/SpeakerStyle/speaker_1.dch",
+"speaker_2": "res://test-project/SpeakerStyle/speaker_2.dch"
+}
+directories/dtl_directory={
+"Chapter 10": "res://test-project/Chapter 10.dtl",
+"Chapter1": "res://Chapter1.dtl",
+"Claire": "res://test-project/Smartphone/Timelines/Claire.dtl",
+"Laurey": "res://test-project/Smartphone/Timelines/Laurey.dtl",
+"Otto": "res://test-project/Smartphone/Timelines/Otto.dtl",
+"Sock_Ending": "res://Sock_Ending.dtl",
+"isolated_visual_novel/Chapter 10": "res://isolated_visual_novel/Chapter 10.dtl",
+"rpg_smith": "res://test-project/SmallRPG/Timelines/rpg_smith.dtl",
+"speaker_tml_1": "res://test-project/SpeakerStyle/speaker_tml_1.dtl",
+"t0_overview": "res://test-project/FakeUnitTests/t0_overview.dtl",
+"t1_texts": "res://test-project/FakeUnitTests/t1_texts.dtl",
+"t2_characters": "res://test-project/FakeUnitTests/t2_characters.dtl",
+"t3_variables": "res://test-project/FakeUnitTests/t3_variables.dtl",
+"t4_styles": "res://test-project/FakeUnitTests/t4_styles.dtl",
+"t5_various_events": "res://test-project/FakeUnitTests/t5_various_events.dtl",
+"t6_audio": "res://test-project/FakeUnitTests/t6_audio.dtl",
+"t7_backgrounds": "res://test-project/FakeUnitTests/t7_backgrounds.dtl",
+"vn_beginning": "res://test-project/VisualNovel/Timelines/vn_beginning.dtl",
+"vn_chapter1": "res://test-project/VisualNovel/Timelines/vn_chapter1.dtl",
+"vn_ending": "res://test-project/VisualNovel/Timelines/vn_ending.dtl"
+}
+layout/style_directory={}
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")
+
+[input]
+
+dialogic_default_action={
+"deadzone": 0.5,
+"events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":4194309,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"button_mask":0,"position":Vector2(0, 0),"global_position":Vector2(0, 0),"factor":1.0,"button_index":1,"canceled":false,"pressed":true,"double_click":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":32,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":88,"physical_keycode":0,"key_label":0,"unicode":0,"location":0,"echo":false,"script":null)
+, Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":0,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
+]
+}
