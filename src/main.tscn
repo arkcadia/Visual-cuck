@@ -1,13 +1,14 @@
-[gd_scene load_steps=10 format=3 uid="uid://ccqntl865eqmi"]
+[gd_scene load_steps=11 format=3 uid="uid://ccqntl865eqmi"]
 
 [ext_resource type="Script" uid="uid://b310vjoivqxkt" path="res://src/main.gd" id="1_3cfgd"]
 [ext_resource type="Texture2D" uid="uid://ccx1h5wy5hil4" path="res://assets/menu/menu_background.jpeg" id="1_eewff"]
 [ext_resource type="FontFile" uid="uid://bbwk4cong4hdu" path="res://assets/menu/PistonBlack-Regular.ttf" id="2_5q4o7"]
 [ext_resource type="FontFile" uid="uid://3g8f8savlcdd" path="res://assets/menu/Blast Dragon D.otf" id="3_3cfgd"]
-[ext_resource type="Script" path="res://src/menu.gd" id="3_5mrjc"]
+[ext_resource type="Script" uid="uid://c7iijlaa3h27k" path="res://src/menu.gd" id="3_5mrjc"]
 [ext_resource type="Script" uid="uid://c4blorpi3e0sc" path="res://src/display_selector.gd" id="6_5mrjc"]
 [ext_resource type="Texture2D" uid="uid://cj8dgkfb42mh2" path="res://assets/menu/ArrowsLeft.png" id="6_rlaii"]
 [ext_resource type="Texture2D" uid="uid://cdyol6o6mtctp" path="res://assets/menu/ArrowsRight.png" id="8_kf8lf"]
+[ext_resource type="AudioStream" uid="uid://ct5ooqcppe54f" path="res://assets/menu/MenuMusic.mp3" id="9_kf8lf"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gh0ne"]
 
@@ -94,6 +95,18 @@ text = "Settings
 "
 alignment = 0
 
+[node name="ending" type="Button" parent="UI/Menu/MainContain"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "Endings"
+alignment = 0
+
 [node name="About" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
@@ -117,6 +130,28 @@ theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
 text = "Quit"
+alignment = 0
+
+[node name="Control" type="Control" parent="UI/Menu"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Quit" type="Button" parent="UI/Menu/Control"]
+layout_mode = 0
+offset_left = 89.0
+offset_top = 522.0
+offset_right = 190.0
+offset_bottom = 574.0
+theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 38
+theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
+text = "Back"
 alignment = 0
 
 [node name="DisplaySelector" type="Control" parent="UI/Menu"]
@@ -149,6 +184,17 @@ theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 19
 text = "Window"
 
+[node name="Label_Volume" type="Label" parent="UI/Menu/DisplaySelector"]
+layout_mode = 0
+offset_left = 348.0
+offset_top = 200.0
+offset_right = 420.0
+offset_bottom = 226.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_3cfgd")
+theme_override_font_sizes/font_size = 19
+text = "Volume"
+
 [node name="LeftArrow" type="TextureButton" parent="UI/Menu/DisplaySelector"]
 layout_mode = 1
 anchors_preset = -1
@@ -172,6 +218,20 @@ offset_left = -6.0
 offset_right = -3.0517578e-05
 texture_normal = ExtResource("8_kf8lf")
 
+[node name="VolumeSlider" type="HSlider" parent="UI/Menu/DisplaySelector"]
+layout_mode = 0
+offset_left = 463.0
+offset_top = 200.0
+offset_right = 591.0
+offset_bottom = 228.0
+value = 50.0
+
+[node name="MusicPlayer" type="AudioStreamPlayer" parent="UI/Menu"]
+stream = ExtResource("9_kf8lf")
+
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
+[connection signal="pressed" from="UI/Menu/MainContain/ending" to="UI/Menu" method="_on_ending_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="UI/Menu/Control/Quit" to="UI/Menu" method="_on_quit_pressed"]
+[connection signal="value_changed" from="UI/Menu/DisplaySelector/VolumeSlider" to="UI/Menu" method="_on_h_slider_value_changed"]
