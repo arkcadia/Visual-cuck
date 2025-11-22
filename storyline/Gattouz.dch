@@ -36,6 +36,9 @@
 "scale": 1,
 "scene": ""
 },
+"spiderman": {
+"export_overrides": {
+"image": "\"res://assets/mortadon/image-removebg-preview.png\""
 "vert": {
 "export_overrides": {
 "image": "\"res://assets/mortadon/gattouzvert.png\""

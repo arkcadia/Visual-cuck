@@ -10,39 +10,38 @@
 "style": "",
 "suffix": ""
 },
-&"default_portrait": "1coeurvert",
+&"default_portrait": "1coeur",
 &"description": "",
-&"display_name": "coeur",
+&"display_name": "coeurouge",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {
-"1coeurvert": {
+"1coeur": {
 "export_overrides": {
-"image": "\"res://assets/mortadon/1coeurvert.png\""
+"image": "\"res://assets/mortadon/1coeur.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 0.75,
+"scale": 0.5,
 "scene": ""
 },
-"2coeurvert": {
+"2coeur": {
 "export_overrides": {
-"image": "\"res://assets/mortadon/2coeurvert.png\""
+"image": "\"res://assets/mortadon/2coeur.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 0.75,
+"scale": 0.5,
 "scene": ""
 },
-"3coeurvert": {
+"3coeur": {
 "export_overrides": {
-"image": "\"res://assets/mortadon/3coeurvert.png\""
+"image": "\"res://assets/mortadon/coeur-removebg-preview.png\""
 },
-"ignore_char_scale": false,
 "mirror": false,
 "offset": Vector2(0, 0),
-"scale": 0.75,
+"scale": 0.5,
 "scene": ""
 }
 },
