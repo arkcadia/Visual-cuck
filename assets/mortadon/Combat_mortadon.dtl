@@ -37,16 +37,33 @@ Narrator: Dernière question !  Quel footballeur a été incarcérer pour avoir 
 	Narrator: Tu dis ca parce qu'il est un peu ... un peu ...
 	jump Troisieme_question
 - Benjamin Mendy
-	Narrator: Félicitations
+	jump Fin_question
 - Dani Alves
 	Narrator: Et non Dani a été incarcérer pour agression sexuelle uniquement ! Quel chance
 	jump Troisieme_question
-Narrator: Félicitations c'est gagné pour toi ! Gattouz redeviens tout blanc et attend ...
-Il se transforme !!!!!! HABIBI !
+label Fin_question
+Narrator: Félicitations !
+Narrator: C'est gagné pour toi ! Gattouz redeviens tout blanc et attend...\
+Il se transforme !
 leave --All-- [animation="Fade Out" length="2.0"]
 [wait time="2.0"]
 join Gattouz (spiderman) center
-Gattouz: Merci mon pote de m'avoir aider ! Sur ces belles paroles
-Gattouz: Je m'en vais sauver khalamité et abattre ceux qui se dressent contre moi
-Gattouz: [i](un petit baton se dresse)[/i]
+Gattouz: Merci mon pote de m'avoir aidé !
+Gattouz: Après ce rude combat j'ai sauvagement faim...
+Gattouz: Je m'en vais en direction du Burger King de Pau !!
+Gattouz: Halal ou pas Halal je m'en bat les couilles !!
+leave Gattouz 
+
+[wait time="1.0"]
+[background arg="res://assets/mortadon/burgerking_pau.jpg" fade="0.0"]
+
+Narrator: Après un court trajet,\
+Gattouz arrive devant le Burger King à pau route de Tarbes.
+Narrator: Il commande un menu mystère espérant trouver un double steakhouse.
+Narrator: Mais ce gros noob tombe sur un [b]SALE[/b] Big Fish.
+join Gattouz left
+join McFish right
+McFish: Bah alors loser t'es tombé sur moi ou quoi?
+McFish: Aller retourne te pignouf sur des Schtroumpfs.
+
 [end_timeline]
