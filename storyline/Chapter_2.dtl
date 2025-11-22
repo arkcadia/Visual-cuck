@@ -101,6 +101,10 @@ leave Gattouz
 Narrator: Sans attendre, Gattouz s'élance vers le manoir qui domine Tekpi City.
 Narrator: Il court, poussé par le destin.
 Narrator: Mais il le sait, Stéph fera tout pour l'arrêter.
+
+audio "res://assets/Gaytouzze/IPHONE NOTIFICATION SOUND EFFECT (PING_DING).mp3"
+[wait time="1.0"]
+Narrator: Vous recevez une notification.
 label Notification
 - Ignorer
 - Ouvrir la notification
