@@ -79,6 +79,7 @@ audio/channel_defaults={
 }
 variables={
 "NPCS_visited": 0,
+"Sauce_pas_net": false,
 "Visited_8bits": false,
 "Visited_Glitch": false,
 "Visited_Moine": false

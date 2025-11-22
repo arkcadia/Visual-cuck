@@ -1,7 +1,7 @@
 [background arg="res://assets/mortadon/snack.png" fade="0.0"]
 
-Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment vous se reglez nos combattants Chaque combattants à trois vies
-Narrator : c'est à vous joueur de répondre correctement aux questions pour que le Lord Gattouz puissent découper ce vendeur de Sandwich !
+Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment ce combat va se finir.
+Narrator : C'est à vous joueur de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
 
 join Mortadon (boss) left [animation="Bounce In" length="2.0"]
 join gatouzvert right [animation="Bounce In" length="2.0"]
@@ -9,4 +9,6 @@ join coeur (3coeur) center [animation="Bounce In" length="2.0"]
 join coeur (3coeurvert) rightmost [animation="Bounce In" length="2.0"]
 
 Gattouz: HABIBI !
-Mortadon: MONSTRE ! DOUBLE MONSTRE !
+Mortadon: MONSTRE !
+Mortadon: DOUBLE MONSTRE !
+Mortadon: TRIPLE MONSTRE !

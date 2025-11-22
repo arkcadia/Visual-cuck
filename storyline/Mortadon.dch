@@ -15,7 +15,7 @@
 &"display_name": "Mortadon",
 &"mirror": false,
 &"nicknames": [""],
-&"offset": Vector2(0, 0),
+&"offset": Vector2(0, -200),
 &"portraits": {
 "boss": {
 "export_overrides": {
@@ -54,5 +54,5 @@
 "scene": ""
 }
 },
-&"scale": 0.75
+&"scale": 0.65
 }
