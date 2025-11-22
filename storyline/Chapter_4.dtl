@@ -1,0 +1,16 @@
+label Debut_Chapitre_4
+
+[background arg="res://assets/main_story/manoircuck.jpg"]
+
+Narrator: Gattouz secoue la poussière de sa chaise, et prend son élan…
+join Gattouz
+Gattouz: Par l'amour de Kalamité...
+Gattouz: ET PAR LA SAINTE CHAISE !
+leave Gattouz 
+Narrator: Et il défonce la porte du manoir de Cuck Lord.
+Narrator: Laissant derrière lui des adorateurs brisés.
+Narrator: Ainsi que leurs avertissements énigmatiques
+Narrator: La guerre n'est plus une menace.
+Narrator: Elle est à nos portes...
+Narrator: Alors qu’il avance, sa chaise sacrée serrée contre lui,
+Narrator: une silhouette se matérialise dans l’ombre, le regard brillant d’une folie contenue.
