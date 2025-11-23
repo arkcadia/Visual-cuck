@@ -29,7 +29,7 @@
 },
 "Super Saiyan": {
 "export_overrides": {
-"image": ""
+"image": "\"res://assets/main_story/ssj_gattouz.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

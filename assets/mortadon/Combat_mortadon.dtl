@@ -1,52 +1,56 @@
 [background arg="res://assets/mortadon/snack.png" fade="0.0"]
 
-Narrator: Vous avez fait le bon choix joueur, on veut tous savoir comment ce combat va se finir.
-Narrator: C'est à vous joueur de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
+Narrator: Vous avez fait le bon choix, on veut tous savoir comment ce combat va se finir.
+Narrator: C'est désormais à vous de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
 
-join Mortadon (boss) left [animation="Bounce In" length="2.0"]
-join Gattouz right [animation="Bounce In" length="2.0"]
-join coeur (3coeurvert) rightmost [animation="Bounce In" length="2.0"]
+join Mortadon (boss) left
+join Gattouz (vert) right
+join coeur (3coeurvert) rightmost
 join coeurouge (3coeur) leftmost
 
 Gattouz: HABIBI !
 Mortadon: MONSTRE ! DOUBLE MONSTRE !!
-Narrator: Première question ! Quel est le métier de Gattouz ??
+Narrator: Première question ! Quel est le métier de Gattouz ?
 label Première question
 - Acteur porno
-	Narrator: Félicitations prochaine question !
+	Narrator: Félicitations.\
+	Passons à la prochaine question !
 - Joueur de Scrabble Professionnel
-	Tes débile mec, c'est logique on connait tous gattouz pour ces parties de jambe en l'air
+	Narrator: T'es débile mec. C'est logique pourtant.\
+	On connait tous Gattouz pour ses parties de jambes en l'air.
 	jump Combat_mortadon/Première question
 
 leave coeurouge
-join coeurouge (2coeur) leftmost [animation="Bounce In" length="2.0"]
+join coeurouge (2coeur) leftmost
 label deuxième_question
-Narrator: Deuxième question ! Devenir un cuck man est une pratique \:
+Narrator: Deuxième question ! Être cocu c'est une pratique... ?
 - Religieuse
 	Narrator: FAUX ! FAUX ! Recommence !
 	jump Combat_mortadon/deuxième_question
-- Sexuel
-	Mortadon: Félicitation prochain et dernière question pour abattre Mortadon
+- Sexuelle
+	Mortadon: Félicitations.\
+	Prochaine et dernière question pour abattre Mortadon.
 leave coeurouge
 join coeurouge (1coeur) leftmost
 Gattouz: Mashallah khoya !
-Narrator: A vu d'oeil Gattouz commence à retrouver ses couleurs !
+Narrator: À vue d'oeil, Gattouz commence à retrouver ses couleurs !
+join Gattouz (BG) right 
 label Troisieme_question
-Narrator: Dernière question !  Quel footballeur a été incarcérer pour avoir commis 7 viol ?? Interessant non ?
+Narrator: Quel footballeur a été incarcéré pour avoir commis 7 viols ?? Intéressant non ?
 - Hakimi
-	Narrator: Tu dis ca parce qu'il est un peu ... un peu ...
+	Narrator: Tu dis ça parce qu'il est un peu... un peu...
 	jump Troisieme_question
 - Benjamin Mendy
 	jump Fin_question
 - Dani Alves
-	Narrator: Et non Dani a été incarcérer pour agression sexuelle uniquement ! Quel chance
+	Narrator: Et non Dani n'a été incarcéré que pour agression sexuelle ! Dommage !
 	jump Troisieme_question
 label Fin_question
 Narrator: Félicitations !
-Narrator: C'est gagné pour toi ! Gattouz redeviens tout blanc et attend...\
+Narrator: C'est gagné pour toi ! Gattouz redeviens tout blanc.
+Narrator: MAIS ATTEND ! QUOI ?
 Il se transforme !
-leave --All-- [animation="Fade Out" length="2.0"]
-[wait time="2.0"]
+leave --All--
 join Gattouz (spiderman) center
 Gattouz: Merci mon pote de m'avoir aidé !
 Gattouz: Après ce rude combat j'ai sauvagement faim...
@@ -65,5 +69,7 @@ join Gattouz (spiderman) left
 join McFish right
 McFish: Bah alors loser t'es tombé sur moi ou quoi?
 McFish: Aller retourne te pignouf sur des Schtroumpfs.
+
+set Global.big_fish = true
 
 [end_timeline]
