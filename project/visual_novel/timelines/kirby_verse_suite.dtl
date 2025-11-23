@@ -1,34 +1,33 @@
 label kirby_verse_suite
 [background arg="res://resources/backgrounds/ANNECY.webp" fade="0.0"]
-join asterion right
+join Asterion right
 join Gattouz left
-jump test
-asterion (Asterion): Je peux t’inviter si tu le souhaites. Il semblerait que tu aies fait longue route.
+Asterion: Je peux t’inviter si tu le souhaites. Il semblerait que tu aies fait longue route.
 Gattouz (BG): Allons-y khouya… J’ai roulé avec la trotte toute la journée, je suis rincé.
 Narrator: Gattouz et Asterion se rendent ensemble au manoir.
 [background arg="res://resources/backgrounds/chateau.png" fade="0.0"]
 join Gattouz (BG) left [animation="Fade In"]
-join asterion (Asterion) right [animation="Fade In"]
+join Asterion (Asterion) right [animation="Fade In"]
 Gattouz (BG): AAAHH zeubi ! C’est immense chez toi ! Comment t’as payé ce palace ?
-asterion (Asterion): Je l’ai acheté sur un vide-grenier en 2012 à un enfant de treize ans.
-asterion (Asterion): J’ai pu négocier le prix… seulement 100 €.
+Asterion: Je l’ai acheté sur un vide-grenier en 2012 à un enfant de treize ans.
+Asterion: J’ai pu négocier le prix… seulement 100 €.
 Gattouz (BG): Khouya… ton manoir il est vraiment grand. Tu pourrais cacher des gens dans toutes ces pièces.
-asterion (Asterion): (Surpris)\
+Asterion: (Surpris)
 Aha… oui, effectivement, c’est grand. On pourrait presque croire que je séquestre des gens ici.
 Gattouz (BG): Tu serais pas en lien avec le Cuck Lord qui a enlevé Khalamité ?
-asterion (Asterion): (se fige, sourcils froncés)\
+Asterion: (se fige, sourcils froncés)
 Attends… quoi ? Tu viens vraiment de dire ça ?
 Gattouz (BG): Bah je demande juste, on sait jamais…
-asterion (Asterion): (se redresse, nettement irrité)\
+Asterion: (se redresse, nettement irrité)
 Tu crois sérieusement que j’aurais un lien avec ce malade ?
-asterion (Asterion): C’est ça que tu penses de moi ?
+Asterion: C’est ça que tu penses de moi ?
 Gattouz (BG): Oh oh, calme, c’était une question…
-asterion (Asterion): Non, mais c’est incroyable… Je t’ouvre ma porte, je t’offre un endroit pour te reposer, et toi tu me sors que 	je bosse avec un ravisseur ?
-asterion (Asterion): Tu me prends pour qui ?
+Asterion: Non, mais c’est incroyable… Je t’ouvre ma porte, je t’offre un endroit pour te reposer, et toi tu me sors que je bosse avec un ravisseur ?
+Asterion: Tu me prends pour qui ?
 Gattouz (BG): Khouya, j’ai roulé toute la journée, j’suis fatigué…
-asterion (Asterion): (énervé, voix sèche)
-asterion (Asterion): Ouais bah moi, je suis fatigué d’entendre des accusations débiles !
-asterion (Asterion): Je n’ai RIEN à voir avec l’enlèvement de Khalamité. C’est clair ?
+Asterion: [i](énervé, voix sèche)[/i]
+Asterion\: Ouais bah moi, je suis fatigué d’entendre des accusations débiles !
+Asterion: Je n’ai RIEN à voir avec l’enlèvement de Khalamité. C’est clair ?
 - croire Asterion
 	jump croire_asterion
 
@@ -38,61 +37,60 @@ asterion (Asterion): Je n’ai RIEN à voir avec l’enlèvement de Khalamité. 
 label croire_asterion
 Gattouz (BG): Bon… khouya, excuse-moi. J’ai réfléchi. T’es peut-être un peu bizarre… mais t’es pas un méchant.
 Gattouz (BG): J’vois bien que t’as pas enlevé Khalamité.
-asterion (Asterion): (relâchant sa tension)\
+Asterion: (relâchant sa tension)
 Enfin quelqu’un qui utilise son cerveau. Merci, Gattouz.
 Gattouz (BG): Écoute, on a un ennemi en commun \: le Cuck Lord.
 Gattouz (BG): Et j’vais pas y aller tout seul… ça serait du suicide.
-asterion (Asterion): (sourit légèrement)\
+Asterion: (sourit légèrement)
 Tu veux que je t’aide à le combattre ?
 Gattouz (BG): Exactement. T’es fort, t’es rusé, et ton manoir a sûrement une salle où tu caches des armes de fou.
-asterion (Asterion): (peut pas s’empêcher de rire)
-asterion (Asterion): J’ai peut-être… quelques artefacts intéressants, oui.
+Asterion: (peut pas s’empêcher de rire)
+Asterion: J’ai peut-être… quelques artefacts intéressants, oui.
 Gattouz (BG): Alors viens avec moi.
 Gattouz (BG): On récupère Khalamité, on lui explose sa tête, et on rentre.
-asterion (Asterion): (approche Gattouz, sérieux)\
+Asterion: (approche Gattouz, sérieux)
 Si je m’engage avec toi… je vais jusqu’au bout.
-asterion (Asterion): Tu es prêt pour la guerre ?
+Asterion: Tu es prêt pour la guerre ?
 Gattouz (BG): Khouya… je suis né pour cette destiné. Et avec toi à mes côtés, le Cuck Lord n’a qu’à bien se tenir.
-[i]Asterion attrape une arme ancienne accrochée au mur, un sourire presque animal sur les lèvres.[i]
-update asterion (asterion avec arme)
-asterion (asterion avec arme): Alors allons chercher Khalamité.\
+Narrator: Asterion attrape une arme ancienne accrochée au mur, un sourire presque animal sur les lèvres.
+update Asterion (asterion avec arme)
+Asterion: Alors allons chercher Khalamité.
 Et mettons fin à ce tyran.
-jump 
+jump alternate_chapter_4/alternate_chapter_4
 
 
 
 label ne_pas_croire_asterion
-Gattouz (BG): (commence à s'énerver')\
+Gattouz (BG): (commence à s'énerver')
 Non… non khouya, tu me mens. Plus j’regarde ce manoir, plus j’suis sûr \: c’est toi qui as enlevé Khalamité.
-asterion (Asterion): (la machoire serrée)\
+Asterion: (la machoire serrée)
 Gattouz… je te conseille de mesurer tes paroles.
 Gattouz (BG): Regarde-toi ! Tes couloirs font dix kilomètres, t’as des pièces secrètes partout… Et tes réponses bizarres ! J’sais que t’y es pour quelque chose.
-asterion: GATTOUZ... tu t’égares complètement. Je t'ai déjà dit que je n’ai rien à voir avec ça.
+Asterion: GATTOUZ... tu t’égares complètement. Je t'ai déjà dit que je n’ai rien à voir avec ça.
 Gattouz (BG): J’te crois plus. Je vois clair dans ton jeu, Asterion.
-asterion (Asterion): (très calme, trop calme, sors son fameux air consanguin)\
+Asterion: (très calme, trop calme, sors son fameux air consanguin)
 Tu crois vraiment que je suis ton ennemi, Gattouz ?
 Gattouz (BG): Oui… oui khouya. T’as capté Khalamité. Et maintenant tu veux me faire taire.
-asterion (Asterion): (ferme les yeux)\
+Asterion: (ferme les yeux)
 Très bien… si c’est ce que tu veux croire…
-[i]Un bruit sourd résonne. Les murs du manoir vibrent. Une aura sombre engloutit Asterion.[i]
-update asterion [animation="Shake X"]
+Narrator: Un bruit sourd résonne. Les murs du manoir vibrent. Une aura sombre engloutit Asterion.
+update Asterion X"]
 update Gattouz [animation="Shake X"]
 Gattouz (BG): Wesh ? Asterion ?
-asterion (Asterion): (voix déformée)\
+asterion: (voix déformée)
 Tu veux la vérité, Gattouz ?
-asterion (Asterion): Regarde-moi.
-label test
-update asterion (minotaur mod) right [animation="Shake X"]
+asterion: Regarde-moi.
+update Asterion (minotaur mod) X"]
 [background arg="res://resources/backgrounds/chateau combat.png" fade="0.0"]
 [i]Une transformation brutale s’enclenche \: cornes massives, muscles décuplés, sabots frappant le parquet. Asterion révèle sa forme de minotaure.[i]
-asterion (minotaur mod): Si tu me prends pour un monstre… alors je serai le monstre que tu redoutes.
+Asterion: Si tu me prends pour un monstre… alors je serai le monstre que tu redoutes.
 Gattouz (BG): Zeubi . . .
 Narrator: Gatouz lance une attaque tournoyante avec sa trottinette.
 Gattouz (BG): Wesh ça tourne ça tourne ça tourne !
 Gattouz: Trotte Tornado!
 update Gattouz (BG) left [animation="Slide From Right" mirrored="true"]
 Narrator: Asterion lance une attaque en chargeant avec ses cornes
-update asterion (minotaur mod) right [animation="Slide From Left" mirrored="false"]
+update Asterion From Left" mirrored="false"] [animation="Slide From Left"]
 Narrator: Gattouz saute en l'air, fais un salto et ecrase asterion au sol
 Gattouz: AAAHH PRENDS ÇA !
 Gattouz: Zeubi Smash
@@ -106,12 +104,12 @@ label Achever Asterion
 Gattouz: Par l’esprit du couscous… QUE LA SAUCE ME GUIDE !
 Gattouz: COUSCOUS !!
 Gattouz: OVERDRIVE !!
-leave asterion
+leave Asterion
 Narrator: Gatouz remporte le combat.
 Narrator: Il fouille entierrement le manoir et se rend compte que khalamité n'y est pas.
 Narrator: Il repart donc a la recherche de Cuck Lord.
 label Ne pas achever Asterion
 Narrator: Gatouz tourne le dos à Asterion
 Narrator: Asterion en profite et lance une attaque devastatrice qui pulverise Gattouz
-join asterion (minotaur mod) left [animation="Slide In Down"]
+join Asterion (minotaur mod) left [animation="Slide In Down"]
 leave Gattouz [animation="Slide Out Down"]

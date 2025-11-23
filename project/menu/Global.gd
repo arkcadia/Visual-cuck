@@ -20,3 +20,4 @@ var trump_ending = false
 var start_cutscene = false
 
 var chapter_name = "Chapter_1"
+var go_to_menu = true

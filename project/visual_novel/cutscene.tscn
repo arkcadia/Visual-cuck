@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1vhw8gprjxil"]
+
+[ext_resource type="VideoStream" uid="uid://c6e1uf1ee4k1s" path="res://resources/video/asterion-annecy.ogv" id="1_dolvs"]
+[ext_resource type="Script" uid="uid://bxvdd8lfoi6mj" path="res://project/visual_novel/cutscene.gd" id="2_j1gij"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer"]
+top_level = true
+visibility_layer = 2
+offset_right = 40.0
+offset_bottom = 40.0
+stream = ExtResource("1_dolvs")
+autoplay = true
+script = ExtResource("2_j1gij")
