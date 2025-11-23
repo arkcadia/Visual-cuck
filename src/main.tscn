@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://ccqntl865eqmi"]
+[gd_scene load_steps=21 format=3 uid="uid://ccqntl865eqmi"]
 
 [ext_resource type="Script" uid="uid://b310vjoivqxkt" path="res://src/main.gd" id="1_3cfgd"]
 [ext_resource type="Texture2D" uid="uid://ccx1h5wy5hil4" path="res://assets/menu/menu_background.jpeg" id="1_eewff"]
@@ -10,13 +10,15 @@
 [ext_resource type="Script" uid="uid://lc47lqwtxqj0" path="res://src/endings.gd" id="6_uewes"]
 [ext_resource type="Texture2D" uid="uid://dl23ywj7qudeu" path="res://assets/menu/mystery.jpg" id="7_e7lu8"]
 [ext_resource type="Texture2D" uid="uid://dmiffqtp1kn3b" path="res://assets/menu/socks.jpg" id="7_srxbw"]
-[ext_resource type="Texture2D" uid="uid://c4sgw80i6d4qo" path="res://assets/menu/mortadon.jpg" id="8_d3u4l"]
 [ext_resource type="Texture2D" uid="uid://cdyol6o6mtctp" path="res://assets/menu/ArrowsRight.png" id="8_kf8lf"]
 [ext_resource type="AudioStream" uid="uid://ct5ooqcppe54f" path="res://assets/menu/MenuMusic.mp3" id="9_kf8lf"]
-[ext_resource type="Texture2D" uid="uid://bi01tjqfsuxs5" path="res://assets/menu/maingattouz.jpg" id="9_tb146"]
 [ext_resource type="Texture2D" uid="uid://dvwtibe2yccx5" path="res://assets/menu/bigfish.jpg" id="10_e7lu8"]
+[ext_resource type="Texture2D" uid="uid://bjxg3d8arh41x" path="res://assets/mortadon/gatouzspider.png" id="10_okx7f"]
 [ext_resource type="Texture2D" uid="uid://c6jk553dr00dk" path="res://assets/menu/asmrminotaure.jpg" id="11_okx7f"]
-[ext_resource type="Texture2D" uid="uid://dtyxdrynmtx6y" path="res://assets/menu/grindr.webp" id="12_sta5p"]
+[ext_resource type="Texture2D" uid="uid://dcu4nawbhkrme" path="res://assets/main_story/ssj_gattouz.png" id="11_sta5p"]
+[ext_resource type="Texture2D" uid="uid://bfp0xfn6h3h82" path="res://assets/menu/asterion.jpg" id="13_sif16"]
+[ext_resource type="Texture2D" uid="uid://dtwlxbvb681o2" path="res://assets/Gaytouzze/gayttouz-removebg-preview.png" id="14_sta5p"]
+[ext_resource type="Texture2D" uid="uid://d23367f266nd2" path="res://assets/menu/epstein_island.jpeg" id="15_sif16"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gh0ne"]
 
@@ -182,171 +184,183 @@ alignment = 0
 
 [node name="mystery1" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
-offset_left = 214.0
-offset_top = 66.0
-offset_right = 423.0
-offset_bottom = 202.0
+offset_left = 150.0
+offset_top = 75.0
+offset_right = 375.0
+offset_bottom = 250.0
 texture = ExtResource("7_e7lu8")
-expand_mode = 1
-
-[node name="Ending1" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 215.0
-offset_top = 65.0
-offset_right = 422.0
-offset_bottom = 201.0
-texture = ExtResource("7_srxbw")
-expand_mode = 1
-
-[node name="LabelEnding1" type="Label" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 267.0
-offset_top = 213.0
-offset_right = 378.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "Sock ending"
-
-[node name="Ending2" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 500.0
-offset_top = 65.0
-offset_right = 704.0
-offset_bottom = 201.0
-texture = ExtResource("8_d3u4l")
 expand_mode = 1
 
 [node name="mystery2" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
-offset_left = 501.0
-offset_top = 64.0
-offset_right = 703.0
-offset_bottom = 202.0
+offset_left = 475.0
+offset_top = 75.0
+offset_right = 700.0
+offset_bottom = 250.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
-
-[node name="LabelEnding2" type="Label" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 524.0
-offset_top = 213.0
-offset_right = 684.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "Mortadon ending"
-
-[node name="Ending3" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 785.0
-offset_top = 65.0
-offset_right = 995.0
-offset_bottom = 200.0
-texture = ExtResource("9_tb146")
-expand_mode = 1
-
-[node name="LabelEnding3" type="Label" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 820.0
-offset_top = 213.0
-offset_right = 980.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "Main Ending"
 
 [node name="mystery3" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
 offset_left = 785.0
-offset_top = 65.0
-offset_right = 993.0
-offset_bottom = 200.0
+offset_top = 75.0
+offset_right = 1010.0
+offset_bottom = 250.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
-
-[node name="Ending4" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 215.0
-offset_top = 349.0
-offset_right = 422.0
-offset_bottom = 478.0
-texture = ExtResource("10_e7lu8")
-expand_mode = 1
-
-[node name="LabelEnding4" type="Label" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 249.0
-offset_top = 485.0
-offset_right = 387.0
-offset_bottom = 512.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "Big Fish ending"
 
 [node name="mystery4" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
-offset_left = 194.0
-offset_top = 344.0
-offset_right = 422.0
-offset_bottom = 479.0
+offset_left = 150.0
+offset_top = 350.0
+offset_right = 375.0
+offset_bottom = 525.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
-
-[node name="Ending5" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 500.0
-offset_top = 349.0
-offset_right = 703.0
-offset_bottom = 480.0
-texture = ExtResource("11_okx7f")
-expand_mode = 1
-
-[node name="LabelEnding5" type="Label" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 523.0
-offset_top = 485.0
-offset_right = 687.0
-offset_bottom = 512.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "Minotaure ending"
 
 [node name="mystery5" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
-offset_left = 499.0
-offset_top = 349.0
-offset_right = 704.0
-offset_bottom = 479.0
+offset_left = 475.0
+offset_top = 350.0
+offset_right = 700.0
+offset_bottom = 525.0
 texture = ExtResource("7_e7lu8")
-expand_mode = 1
-
-[node name="Ending6" type="TextureRect" parent="UI/Menu/Endings"]
-layout_mode = 0
-offset_left = 785.0
-offset_top = 349.0
-offset_right = 988.0
-offset_bottom = 475.0
-texture = ExtResource("12_sta5p")
 expand_mode = 1
 
 [node name="mystery6" type="TextureRect" parent="UI/Menu/Endings"]
 layout_mode = 0
-offset_left = 784.0
-offset_top = 347.0
-offset_right = 989.0
-offset_bottom = 473.0
+offset_left = 785.0
+offset_top = 350.0
+offset_right = 1010.0
+offset_bottom = 525.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
 
-[node name="LabelEnding6" type="Label" parent="UI/Menu/Endings"]
+[node name="Ending1" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
 layout_mode = 0
-offset_left = 816.0
-offset_top = 492.0
-offset_right = 954.0
-offset_bottom = 519.0
+offset_left = 150.0
+offset_top = 75.0
+offset_right = 375.0
+offset_bottom = 250.0
+texture = ExtResource("7_srxbw")
+expand_mode = 1
+
+[node name="Ending2" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
+layout_mode = 0
+offset_left = 475.0
+offset_top = 75.0
+offset_right = 700.0
+offset_bottom = 250.0
+texture = ExtResource("10_e7lu8")
+expand_mode = 1
+
+[node name="Ending3" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
+layout_mode = 0
+offset_left = 785.0
+offset_top = 75.0
+offset_right = 1010.0
+offset_bottom = 250.0
+texture = ExtResource("10_okx7f")
+expand_mode = 1
+
+[node name="Ending4" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
+layout_mode = 0
+offset_left = 150.0
+offset_top = 350.0
+offset_right = 375.0
+offset_bottom = 525.0
+texture = ExtResource("11_sta5p")
+expand_mode = 1
+
+[node name="Ending5" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
+layout_mode = 0
+offset_left = 475.0
+offset_top = 350.0
+offset_right = 700.0
+offset_bottom = 525.0
+texture = ExtResource("11_okx7f")
+expand_mode = 1
+
+[node name="Ending6" type="TextureRect" parent="UI/Menu/Endings"]
+visible = false
+layout_mode = 0
+offset_left = 785.0
+offset_top = 350.0
+offset_right = 1010.0
+offset_bottom = 525.0
+texture = ExtResource("13_sif16")
+expand_mode = 1
+
+[node name="LabelEnding1" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 250.0
+offset_right = 375.0
+offset_bottom = 280.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
-text = "Grindr ending"
+text = "Sock"
+horizontal_alignment = 1
+
+[node name="LabelEnding2" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 250.0
+offset_right = 700.0
+offset_bottom = 280.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "Big Fish"
+horizontal_alignment = 1
+
+[node name="LabelEnding3" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 785.0
+offset_top = 250.0
+offset_right = 1010.0
+offset_bottom = 280.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "Cuck Lord #1"
+horizontal_alignment = 1
+
+[node name="LabelEnding4" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 525.0
+offset_right = 375.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "Cuck Lord #2"
+horizontal_alignment = 1
+
+[node name="LabelEnding5" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 525.0
+offset_right = 700.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "Minotaure"
+horizontal_alignment = 1
+
+[node name="LabelEnding6" type="Label" parent="UI/Menu/Endings"]
+layout_mode = 0
+offset_left = 785.0
+offset_top = 525.0
+offset_right = 1010.0
+offset_bottom = 555.0
+theme_override_colors/font_color = Color(1, 0, 0, 1)
+theme_override_font_sizes/font_size = 19
+text = "Asterion"
+horizontal_alignment = 1
 
 [node name="Endings2" type="Control" parent="UI/Menu"]
 visible = false
@@ -370,119 +384,65 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
 text = "Previous"
 alignment = 0
 
-[node name="mystery1" type="TextureRect" parent="UI/Menu/Endings2"]
+[node name="mystery7" type="TextureRect" parent="UI/Menu/Endings2"]
 layout_mode = 0
-offset_left = 214.0
-offset_top = 66.0
-offset_right = 423.0
-offset_bottom = 202.0
+offset_left = 150.0
+offset_top = 75.0
+offset_right = 375.0
+offset_bottom = 250.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
 
-[node name="LabelEnding1" type="Label" parent="UI/Menu/Endings2"]
+[node name="mystery8" type="TextureRect" parent="UI/Menu/Endings2"]
 layout_mode = 0
-offset_left = 267.0
-offset_top = 213.0
-offset_right = 378.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "INSERT"
-
-[node name="mystery2" type="TextureRect" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 501.0
-offset_top = 64.0
-offset_right = 703.0
-offset_bottom = 202.0
+offset_left = 475.0
+offset_top = 75.0
+offset_right = 700.0
+offset_bottom = 250.0
 texture = ExtResource("7_e7lu8")
 expand_mode = 1
 
-[node name="LabelEnding2" type="Label" parent="UI/Menu/Endings2"]
+[node name="Ending7" type="TextureRect" parent="UI/Menu/Endings2"]
+visible = false
 layout_mode = 0
-offset_left = 524.0
-offset_top = 213.0
-offset_right = 684.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "INSERT"
-
-[node name="LabelEnding3" type="Label" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 820.0
-offset_top = 213.0
-offset_right = 980.0
-offset_bottom = 240.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "INSERT"
-
-[node name="mystery3" type="TextureRect" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 785.0
-offset_top = 65.0
-offset_right = 993.0
-offset_bottom = 200.0
-texture = ExtResource("7_e7lu8")
+offset_left = 150.0
+offset_top = 75.0
+offset_right = 375.0
+offset_bottom = 250.0
+texture = ExtResource("14_sta5p")
 expand_mode = 1
 
-[node name="LabelEnding4" type="Label" parent="UI/Menu/Endings2"]
+[node name="Ending8" type="TextureRect" parent="UI/Menu/Endings2"]
+visible = false
 layout_mode = 0
-offset_left = 249.0
-offset_top = 485.0
-offset_right = 387.0
-offset_bottom = 512.0
-theme_override_colors/font_color = Color(1, 0, 0, 1)
-theme_override_font_sizes/font_size = 19
-text = "INSERT"
-
-[node name="mystery4" type="TextureRect" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 194.0
-offset_top = 344.0
-offset_right = 422.0
-offset_bottom = 479.0
-texture = ExtResource("7_e7lu8")
+offset_left = 475.0
+offset_top = 75.0
+offset_right = 700.0
+offset_bottom = 250.0
+texture = ExtResource("15_sif16")
 expand_mode = 1
 
-[node name="LabelEnding5" type="Label" parent="UI/Menu/Endings2"]
+[node name="LabelEnding7" type="Label" parent="UI/Menu/Endings2"]
 layout_mode = 0
-offset_left = 523.0
-offset_top = 485.0
-offset_right = 687.0
-offset_bottom = 512.0
+offset_left = 150.0
+offset_top = 250.0
+offset_right = 375.0
+offset_bottom = 280.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
-text = "INSERT"
+text = "Grindr #1"
+horizontal_alignment = 1
 
-[node name="mystery5" type="TextureRect" parent="UI/Menu/Endings2"]
+[node name="LabelEnding8" type="Label" parent="UI/Menu/Endings2"]
 layout_mode = 0
-offset_left = 499.0
-offset_top = 349.0
-offset_right = 704.0
-offset_bottom = 479.0
-texture = ExtResource("7_e7lu8")
-expand_mode = 1
-
-[node name="mystery6" type="TextureRect" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 784.0
-offset_top = 347.0
-offset_right = 989.0
-offset_bottom = 473.0
-texture = ExtResource("7_e7lu8")
-expand_mode = 1
-
-[node name="LabelEnding6" type="Label" parent="UI/Menu/Endings2"]
-layout_mode = 0
-offset_left = 816.0
-offset_top = 492.0
-offset_right = 954.0
-offset_bottom = 519.0
+offset_left = 475.0
+offset_top = 250.0
+offset_right = 700.0
+offset_bottom = 280.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
-text = "INSERT"
+text = "Grindr #2"
+horizontal_alignment = 1
 
 [node name="DisplaySelector" type="Control" parent="UI/Menu"]
 visible = false

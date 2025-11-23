@@ -14,15 +14,14 @@ func _ready():
 	display_menu.visible = false
 	volume_slider.value = db_to_linear(music_player.volume_db) * 100.0
 	music_player.play()
+
 func _on_settings_button_pressed():
 	display_menu.visible = !display_menu.visible 
 	settings_open = !settings_open
 
-
 func _on_h_slider_value_changed(value: float) -> void:
 	var db_value = linear_to_db(value / 100.0)
 	music_player.volume_db = db_value
-
 
 func _on_ending_pressed() -> void:
 	main_menu.visible = !main_menu.visible
@@ -32,15 +31,12 @@ func _on_ending_pressed() -> void:
 		settings_open = false
 	endings.visible = !endings.visible
 
-
 func _on_quit_pressed() -> void:
 	_on_ending_pressed()
-
 
 func _on_next_pressed() -> void:
 	endings2.visible = !endings2.visible
 	endings.visible = !endings.visible
-
 
 func _on_previous_pressed() -> void:
 	_on_next_pressed()

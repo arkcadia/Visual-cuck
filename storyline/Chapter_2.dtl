@@ -107,9 +107,11 @@ audio "res://assets/Gaytouzze/IPHONE NOTIFICATION SOUND EFFECT (PING_DING).mp3"
 Narrator: Vous recevez une notification.
 label Notification
 - Ignorer
+	jump skipped_notif_1
 - Ouvrir la notification
 	jump Gayttouze_Chapter/Gayttouze
 [wait time="1.0"]
+label skipped_notif_1
 join Gattouz center
 Gattouz: La guerre commence maintenant.
 

@@ -31,8 +31,8 @@ directories/dch_directory={
 "Gattouz": "res://storyline/Gattouz.dch",
 "Gayttouz": "res://assets/Gaytouzze/Gayttouz.dch",
 "Glitched_Woman": "res://storyline/Glitched_Woman.dch",
-"Khalamite": "res://assets/main_story/Khalamite.dch",
 "Grinder": "res://Grinder.dch",
+"Khalamite": "res://assets/main_story/Khalamite.dch",
 "Lettre": "res://storyline/Lettre.dch",
 "Lil Nas X": "res://Lil Nas X.dch",
 "McFish": "res://McFish.dch",
@@ -99,6 +99,7 @@ audio/channel_defaults={
 }
 variables={
 "NPCS_visited": 0,
+"Sauce_pas_net": false,
 "Visited_8bits": false,
 "Visited_Glitch": false,
 "Visited_Moine": false
