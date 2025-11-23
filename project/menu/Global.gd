@@ -16,3 +16,5 @@ var feat_asterion = false
 # grindr endings
 var gayttouz_ending = false
 var trump_ending = false
+
+var chapter_name = "Chapter_1"

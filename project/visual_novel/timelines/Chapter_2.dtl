@@ -1,15 +1,3 @@
-label ChaiseChoisie
-
-join Gattouz center
-Gattouz: [i](regardant la chaise)[/i]\
-Toi…
-Gattouz: ...
-Gattouz: [i](prenant la chaise à deux mains)[/i]\
-Tu seras mon épée.
-leave Gattouz
-Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé de sa chaise, prêt à braver l'inimaginable.
-- Sortir
-
 [wait time="1.0"]
 [background arg="res://resources/backgrounds/manifestation2.jpg" fade="0.0"]
 
