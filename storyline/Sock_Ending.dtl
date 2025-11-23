@@ -3,5 +3,7 @@ label SockEnding
 join Gattouz leftmost
 Gattouz: Cette chaussette est beaucoup trop lourde.
 Gattouz: Elle a l'air très suspecte...
-Narrator: Vous avez débloqué le ending Chaussette.
+
+set Global.sock_ending = true
+
 [end_timeline]

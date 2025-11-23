@@ -5,7 +5,7 @@ label Gayttouze
 Grinder: Vous avez un match !
 label Notification
 - Ignorer le match
-	Narrator: Vous engagez la conversation.
+	jump Chapter_2/skipped_notif_1
 - Engager la conversation
 join Gattouz right
 Gattouz: Salam aleykoum grand dadet, dis m'en plus sur toi.
@@ -53,3 +53,7 @@ leave Gayttouz
 
 Narrator: Ils vécurent heureux jusqu'à la fin de leur jours.
 [wait time="3.0"]
+
+set Global.gayttouz_ending = true
+
+[end_timeline]
