@@ -56,6 +56,7 @@ Narrator: Asterion attrape une arme ancienne accrochée au mur, un sourire presq
 update Asterion (asterion avec arme)
 Asterion: Alors allons chercher Khalamité.
 Et mettons fin à ce tyran.
+leave Asterion 
 jump alternate_chapter_4/alternate_chapter_4
 
 
