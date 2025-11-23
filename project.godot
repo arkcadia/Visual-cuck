@@ -29,9 +29,12 @@ directories/dch_directory={
 "Cuck_monk": "res://storyline/Cuck_monk.dch",
 "Foule_Cuck": "res://storyline/Foule_Cuck.dch",
 "Gattouz": "res://storyline/Gattouz.dch",
+"Gayttouz": "res://assets/Gaytouzze/Gayttouz.dch",
 "Glitched_Woman": "res://storyline/Glitched_Woman.dch",
 "Khalamite": "res://assets/main_story/Khalamite.dch",
+"Grinder": "res://Grinder.dch",
 "Lettre": "res://storyline/Lettre.dch",
+"Lil Nas X": "res://Lil Nas X.dch",
 "McFish": "res://McFish.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
@@ -53,6 +56,7 @@ directories/dtl_directory={
 "Chapter_3": "res://assets/mortadon/Chapter_3.dtl",
 "Chapter_4": "res://storyline/Chapter_4.dtl",
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
+"Gayttouze_Chapter": "res://Gayttouze_Chapter.dtl",
 "Sock_Ending": "res://storyline/Sock_Ending.dtl"
 }
 layout/style_directory={}
@@ -91,16 +95,13 @@ audio/channel_defaults={
 }
 variables={
 "NPCS_visited": 0,
-"Reponse_A": false,
-"Reponse_B": false,
-"Sauce_pas_net": false,
 "Visited_8bits": false,
 "Visited_Glitch": false,
 "Visited_Moine": false
 }
-glossary/default_case_sensitive=true
-layout/style_list=["", "res://test/VisualNovelStyle.tres"]
+layout/style_list=[]
 layout/default_style="res://test/CustomTestStyle/testing_style.tres"
+glossary/default_case_sensitive=true
 
 [display]
 
