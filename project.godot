@@ -40,8 +40,10 @@ directories/dch_directory={
 "Narrator": "res://project/visual_novel/characters/Narrator.dch",
 "Stephen Hawking": "res://project/visual_novel/characters/Stephen Hawking.dch",
 "Trump": "res://project/visual_novel/characters/Trump.dch",
+"Unknown": "res://project/visual_novel/timelines/Unknown.dch",
 "Voix_inconnue": "res://project/visual_novel/characters/Voix_inconnue.dch",
 "adorateur_1": "res://project/visual_novel/characters/adorateur_1.dch",
+"asterion": "res://project/visual_novel/characters/Asterion.dch",
 "coeur": "res://project/visual_novel/characters/coeur.dch",
 "coeurouge": "res://project/visual_novel/characters/coeurouge.dch",
 "cuck_lord": "res://project/visual_novel/characters/cuck_lord.dch",
@@ -58,8 +60,10 @@ directories/dtl_directory={
 "Chapter_4": "res://project/visual_novel/timelines/Chapter_4.dtl",
 "Combat_mortadon": "res://project/visual_novel/timelines/Combat_mortadon.dtl",
 "Gayttouze_Chapter": "res://project/visual_novel/timelines/Gayttouze_Chapter.dtl",
+"Kirby_verse": "res://project/visual_novel/timelines/Kirby_verse.dtl",
 "Sock_Ending": "res://project/visual_novel/timelines/Sock_Ending.dtl",
-"Trump_Chapter": "res://project/visual_novel/timelines/Trump_Chapter.dtl"
+"Trump_Chapter": "res://project/visual_novel/characters/Trump_Chapter.dtl",
+"kirby_verse_suite": "res://project/visual_novel/timelines/kirby_verse_suite.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"

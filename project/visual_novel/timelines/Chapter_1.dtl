@@ -10,20 +10,20 @@ Narrator: Affalé sur une chaise grinçante, Gattouz respire comme s’il revena
 join Gattouz center
 Gattouz: [i](haletant)[/i]\
 Où… où est-ce que je suis ?
-leave Gattouz 
+leave Gattouz
 Narrator: Il ne se souvient de rien. Le vide.
 Narrator: Devant lui, une ampoule mourante grésille comme une mouche à l’agonie.
 Narrator: Sur la porte, un mot, griffonné à la hâte.
 join Lettre center
 Lettre: Saint Gattouz, j’ai capturé Kalamité.\
 Le Cuck Land régnera en maître sur Tekpi City.
-Lettre: Signé: CUCK LORD.
+Lettre: Signé\: CUCK LORD.
 leave Lettre
 join Gattouz center
 Gattouz: [i](les yeux exorbités)[/i]\
 Quoi… ?
 Gattouz: Quoi ??
-leave Gattouz 
+leave Gattouz
 Narrator: Les pupilles du héros se dilatent.
 Narrator: Un souffle venu du fond de son âme explose.
 join Gattouz center

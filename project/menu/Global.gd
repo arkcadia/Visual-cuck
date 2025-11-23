@@ -17,4 +17,6 @@ var feat_asterion = false
 var gayttouz_ending = false
 var trump_ending = false
 
+var start_cutscene = false
+
 var chapter_name = "Chapter_1"
