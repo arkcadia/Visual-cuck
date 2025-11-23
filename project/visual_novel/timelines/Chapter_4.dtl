@@ -16,7 +16,7 @@ Narrator: Elle est à nos portes...
 [background arg="res://resources/backgrounds/mansion_inside.png" fade="0.0"]
 
 Narrator: Gattouz entre enfin dans le manoir de Cuck Lord.
-Narrator: Un silence funèbre s'installe.
+Narrator: Un silence funèbre s'installe.\
 Un vent froid traverse les couloirs...
 Narrator: Mais un détail vient piquer la curiosité de notre héro.
 join Gattouz left
@@ -32,10 +32,9 @@ Gattouz: ...
 Gattouz: Mais toutes ces chaises...
 Gattouz: Serait-ce... le kink de Cuck Lord ?
 leave Gattouz
-Narrator: Il pense avoir touché le fond
+Narrator: Il pense avoir touché le fond\
 Mais le manoir n'a pas encore fini de lui parler.
-Narrator: Dans un couloir sombre,
-un cri sinistre, étiré, malsain retentit.
+Narrator: Dans un couloir sombre, un cri sinistre, étiré, malsain retentit.
 join Voix_inconnue center
 Voix_inconnue: [b]GATTOOOUUUZZZZZ…[/b]
 leave Voix_inconnue
@@ -43,48 +42,47 @@ Narrator: Gattouz se retourne d’un coup.
 join Gattouz center
 Gattouz: HABIBI !!??
 leave Gattouz
-Narrator: Il se met à courir, ouvre toutes les portes,
-frappe, secoue, cherche, fouille...
+Narrator: Il se met à courir, ouvre toutes les portes, frappe, secoue, cherche, fouille...
 Narrator: Mais rien.
 Narrator: Rien.
 Narrator: Soudainement, l'atmosphère se fige.
 Narrator: Des haut-parleurs poussiéreux se font entendre dans le manoir.
-Narrator: Une voix résonne.
+Narrator: Une voix résonne.\
 Moqueuse mais profonde.
-cuck_lord (Default): [i](à travers les haut-parleurs)[/i]
+cuck_lord (Default): [i](à travers les haut-parleurs)[/i]\
 Gattouz... ahahahah...
-Narrator: Le plafond craque.
+Narrator: Le plafond craque.\
 Le sol tremble.
 cuck_lord: Tu n’aurais JAMAIS dû venir... ahahah...
 Narrator: Le rire machiavélique dure de longues secondes.
 Narrator: Une silhouette traverse le plafond et atterit dans un vacarme assourdissant.
 [b]CRACK—DOUM—ÉCHO[/b]
-Narrator: La lumière change.
+Narrator: La lumière change.\
 La pièce entière s’illumine d’une aura malsaine.
-Narrator: Le Cuck Lord apparaît.
+Narrator: Le Cuck Lord apparaît.\
 Le fameux Stéphane Twingo.
 join cuck_lord right
 join Gattouz left
-cuck_lord: Ahahah... Gattouz, Gattouz...
+cuck_lord: Ahahah... Gattouz, Gattouz...\
 Tu es venu pour Kalamité...
 cuck_lord: Mais tu ne repartiras pas d'ici vivant...
-Gattouz: [i](poing serré)[/i]
+Gattouz: [i](poing serré)[/i]\
 Stéphane Twingo...
 Gattouz: Pourquoi ?
 Gattouz: Pourquoi [b]MOI[/b] ?
 Gattouz: J’étais [b]HEUREUX[/b] avec Habibi... mashallah...
-cuck_lord: [i](se murmure à lui-même)[/i]
+cuck_lord: [i](se murmure à lui-même)[/i]\
 Respire…
-cuck_lord: [i](s'adressant à Gattouz)[/i]
+cuck_lord: [i](s'adressant à Gattouz)[/i]\
 Tu ne comprends pas...
 cuck_lord: Tu as [b]TOUJOURS[/b] été un obstacle à ma réussite.
-cuck_lord: À la Côte d’Azure...
-À la Capitale...
+cuck_lord: À la Côte d’Azure...\
+À la Capitale...\
 Et maintenant ici.
 cuck_lord: Tu détruis des femmes...
-cuck_lord: Alors que moi...
+cuck_lord: Alors que moi...\
 Je ne peux survivre qu'en les regardant se faire labourer par un homme sexy !
-cuck_lord: Et au moins une fois par semaine !!
+cuck_lord: Et au moins une fois par semaine !!\
 Sinon…
 cuck_lord: Je [b]DÉPÉRIS[/b] !
 Narrator: Ses yeux deviennent vitreux.
@@ -96,18 +94,18 @@ Narrator: Gattouz esquive sans difficulté.
 Gattouz: J'en ai rien à faire de ton histoire !
 Gattouz: Tu n'avais pas à toucher à [b]HABIBI[/b] !
 Narrator: Il lui met un grand coup de chaise.
-cuck_lord: [i](en larmes)[/i]
-Attention! 
+cuck_lord: [i](en larmes)[/i]\
+Attention!\
 J'ai de l'influence aux aéroports...
 cuck_lord: Frappe moi encore une fois... et je t'enverrai à Berlin !
 Narrator: Gattouz repense à son voyage au japon, son coeur se serre.
-Gattouz: [i](pense intérieurement)[/i]
-Le One Pièce...
+Gattouz: [i](pense intérieurement)[/i]\
+Le One Pièce...\
 C'est [b]TOI[/b] Habibi...
 leave --All--
 Narrator: Une voix féminine traverse les couloirs.
 join Khalamite center
-Khalamite: Mashallah...
+Khalamite: Mashallah...\
 Je t'aime mon grand Saladin à la peau sablée !
 leave Khalamite
 Narrator: Gattouz bouillonne.
@@ -123,14 +121,14 @@ Narrator: Mais un grondement retentit derrière lui...
 Narrator: Il se retourne.
 join Gattouz left
 join cuck_lord right
-cuck_lord: AHAHAHA...
+cuck_lord: AHAHAHA...\
 Tu n’aurais jamais dû me quitter des yeux !
 Narrator: Stéphane Twingo s'assied sur la Sainte Chaise de Gattouz.
-Narrator: Un éclair bleu...
+Narrator: Un éclair bleu...\
 Un souffle...
-Narrator: Une aura monstrueuse...
+Narrator: Une aura monstrueuse...\
 Le Cuck Lord évolue !
-Narrator: Il absorbe l'énergie de tous les cocus du monde.
+Narrator: Il absorbe l'énergie de tous les cocus du monde.\
 Et il devient...
 join cuck_lord (KING) right
 Narrator: [b]LA DIVINITÉ CUCK[/b]
@@ -141,14 +139,14 @@ leave --All--
 [background arg="res://resources/backgrounds/black_background.jpg" fade="0.0"]
 [wait time="2.0"]
 
-Narrator: Gattouz flotte dans le néant.
+Narrator: Gattouz flotte dans le néant.\
 Deux avenirs s'offrent à lui.
 - Spider Gattouz
 	Narrator: Une araignée fluorescente s'approche de son bras...
 	Narrator: Gattouz se laisse mordre.
 	Narrator: Une puissance infinie traverse son corps.
 	[background arg="res://resources/backgrounds/mansion_inside.png" fade="0.0"]
-	Narrator: Il se relève dans le monde réel.
+	Narrator: Il se relève dans le monde réel.\
 	Sa force est décuplée.
 	join Gattouz (spiderman) left
 	join cuck_lord (KING) right
@@ -160,7 +158,7 @@ Deux avenirs s'offrent à lui.
 	join Gattouz (spiderman) center
 	Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
 	leave --All--
-	[background arg="res://aresources/backgrounds/fin_villa.png" fade="0.0"]
+	[background arg="res://resources/backgrounds/fin_villa.png" fade="0.0"]
 	set Global.main_ending_spiderman = true
 	[wait time="1.0"]
 	[b]FIN[/b]
@@ -173,15 +171,15 @@ Deux avenirs s'offrent à lui.
 	Narrator: L'air devient lourd.
 	Narrator: Sa peau brille !
 	[background arg="res://resources/backgrounds/mansion_inside.png" fade="0.0"]
-	Narrator: Il se relève dans le monde réel.
+	Narrator: Il se relève dans le monde réel.\
 	Sa force est décuplée.
 	join Gattouz (Super Saiyan) left
 	join cuck_lord (KING) right
 	Gattouz: [b]AAAAAAAAAAAAAAAAAAAAAH !!![/b]
-	Gattouz: Ne t'en fais pas Habibi.
+	Gattouz: Ne t'en fais pas Habibi.\
 	Je suis là maintenant.
 	Narrator: Il charge une attaque légendaire.
-	Gattouz: [b]KAME...[/b]
+	Gattouz: [b]KAME...[/b]\
 	[b]ALLAAAAAH !!![/b]
 	Narrator: Le projectile sacré frappe Stéphane de plein fouet.
 	Narrator: Il s'effondre sec.
@@ -194,4 +192,4 @@ Deux avenirs s'offrent à lui.
 	[wait time="1.0"]
 	[b]FIN[/b]
 	[wait time="3.0"]
-join  center
+join center
