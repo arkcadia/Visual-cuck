@@ -63,6 +63,7 @@ directories/dtl_directory={
 "Kirby_verse": "res://project/visual_novel/timelines/Kirby_verse.dtl",
 "Sock_Ending": "res://project/visual_novel/timelines/Sock_Ending.dtl",
 "Trump_Chapter": "res://project/visual_novel/timelines/Trump_Chapter.dtl",
+"alternate_chapter_4": "res://project/visual_novel/timelines/alternate_chapter_4.dtl",
 "kirby_verse_suite": "res://project/visual_novel/timelines/kirby_verse_suite.dtl"
 }
 layout/style_directory={}
