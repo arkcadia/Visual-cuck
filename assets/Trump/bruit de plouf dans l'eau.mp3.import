@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bon7jy4wdlflc"
+path="res://.godot/imported/bruit de plouf dans l'eau.mp3-6f142b071021cfb59038e3a009b0f990.mp3str"
+
+[deps]
+
+source_file="res://assets/Trump/bruit de plouf dans l'eau.mp3"
+dest_files=["res://.godot/imported/bruit de plouf dans l'eau.mp3-6f142b071021cfb59038e3a009b0f990.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
