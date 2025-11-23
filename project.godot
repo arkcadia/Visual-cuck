@@ -37,11 +37,14 @@ directories/dch_directory={
 "McFish": "res://McFish.dch",
 "Mortadon": "res://storyline/Mortadon.dch",
 "Narrator": "res://storyline/Narrator.dch",
+"Stephen Hawking": "res://Stephen Hawking.dch",
+"Trump": "res://Trump.dch",
 "adorateur_1": "res://assets/main_story/adorateur_1.dch",
 "character": "res://storyline/character.dch",
 "coeur": "res://assets/mortadon/coeur.dch",
 "coeurouge": "res://storyline/coeurouge.dch",
 "gatouzvert": "res://assets/mortadon/gatouzvert.dch",
+"gattouz_piscine": "res://assets/Trump/gattouz_piscine.dch",
 "purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch",
 "snack": "res://assets/mortadon/snack.dch",
 "weirdo": "res://weirdo.dch"
@@ -53,8 +56,9 @@ directories/dtl_directory={
 "Chapter_3": "res://assets/mortadon/Chapter_3.dtl",
 "Chapter_4": "res://storyline/Chapter_4.dtl",
 "Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
-"Gayttouze_Chapter": "res://Gayttouze_Chapter.dtl",
-"Sock_Ending": "res://storyline/Sock_Ending.dtl"
+"Gayttouze_Chapter": "res://storyline/Gayttouze_Chapter.dtl",
+"Sock_Ending": "res://storyline/Sock_Ending.dtl",
+"Trump_Chapter": "res://storyline/Trump_Chapter.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"

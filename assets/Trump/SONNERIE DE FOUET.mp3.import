@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://yf7jqsocld22"
+path="res://.godot/imported/SONNERIE DE FOUET.mp3-141005be1a5dee4e5a3e5041db7a08a8.mp3str"
+
+[deps]
+
+source_file="res://assets/Trump/SONNERIE DE FOUET.mp3"
+dest_files=["res://.godot/imported/SONNERIE DE FOUET.mp3-141005be1a5dee4e5a3e5041db7a08a8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

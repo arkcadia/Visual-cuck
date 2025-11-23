@@ -95,8 +95,16 @@ Adorateiur: que seuls nous adeptes... connaissons...
 Adorateiur: [i](crachant du sang)[/i]\
 N-ne... ne le laisse...
 Adorateiur: paaaaas... s’aaaaassoooooir...
-leave Adorateiur
-leave Gattouz
+leave Adorateiur 
 Narrator: Il expire dans un dernier gargouillis.
+
+[wait time="1.0"]
+Narrator: Dans sa chutte, l'adorateur a fait tombé une mystérieuse fourrure orange
+- Ignorer
+- Ramasser la fourrure
+	jump Trump_Chapter/Trump_Chapter
+label Cancel_Trump
+
+leave Gattouz
 
 jump Chapter_4/Debut_Chapitre_4

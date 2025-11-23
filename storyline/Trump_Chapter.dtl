@@ -1,0 +1,90 @@
+label Trump_Chapter
+
+join Trump right
+Trump: FUCK YEAHHHHH, j'ai perdu ma perruque, saurais tu où elle est ? Je te donnerais un million de $ dollars $ si tu la trouves.
+Gattouz: [i]Qui est ce drole d'individu... Son crâne est si scintillant que je me vois ébloui par cet éclat de lumière.[/i]
+Gattouz: Tfou 3lik himar. Déclines ton identité.
+Trump: Je suis le capitaliste par excellence, l'homme voulant construire un mur pour stopper l'immigration, je ne me présente plus, je suis [b]Donald Trump[/b].
+Narrator: Il est évident que la fourrure que vous venez de ramasser était en réalité la perruque de Trump, à vous de choisir ce que vous souhaitez en faire.
+- Lui rendre la perruque
+	Gattouz: j'ai trouvé ceci tout à l'heure, peut être que c'est ce que tu cherches.
+	Narrator: Gattouz s'approche de Trump et lui rend sa perruque.
+	Trump: FUCK YEAH, c'est bien ma perruque, comme promis voici ton million de $ dollars $. GOODBYE MOTHERFUCKER.
+	leave Trump
+	jump Chapter_3/Cancel_Trump
+- L'aider à chercher sa perruque
+- L'ignorer et continuer la quête
+	Gattouz: [i](En lui tournant le dos et en partant.)[/i]\
+	Ferme ta gueule habibi, démerdes toi pour ta perruque.
+	leave Trump
+	jump Chapter_3/Cancel_Trump
+Gattouz: Habibi, je vais t'aider à retrouver ta perruque.
+Trump: Merci brother, je pense avoir une piste pour la retrouver mais je ne suis pas sûr, suis moi motherfucker.
+leave --All--
+
+[wait time="0.5"]
+join Trump center
+[background arg="res://assets/Trump/Jeffrey_Island.jpg" fade="0.0"]
+Trump: Welcome to Epstein Island ! L'île la plus populaire pour les fêtes de riches.
+Narrator: Une drôle d'ambiance se dégage de cette île, vous vous y sentez mal à l'aise.
+leave Trump
+
+[wait time="0.5"]
+[background arg="res://assets/Trump/epstein_island_in-converted-from-webp.jpeg" fade="0.0"]
+join Trump left
+join Gattouz rightmost
+
+Trump: C'est ici que je l'ai vu pour la dernière fois, je pense qu'elle a ét-.
+join "Stephen Hawking" center
+"Stephen Hawking": *clin d'oeil* *clin d'oeil* *clin d'oeil* *clin d'oeil* *clin d'oeil*
+Trump: Ahh, Steph, je te présente mon ami Gattouz, il m'aide à chercher ma perruque, tu ne l'aurais pas vu d'ailleurs ?
+"Stephen Hawking": *clin d'oeil* *clin d'oeil* *clin d'oeil* *clin d'oeil* *clin d'oeil*
+Trump: Allez shut the fuck up l'handicapé, continuons les recherches Gattouz.
+leave "Stephen Hawking"
+Gattouz: Je n'ai pas l'impression qu'elle est dans les parrages, peut être l'as tu simplement perdu à jamais ?
+Trump: NON ! Je refuse d'abandonner ma chère perruque... Elle m'a accompagnée et m'a aidé a braver les expériences les plus dures. Je la retrouverai coûte que coûte.
+Narrator: Pris d'un élan de culpabilité, vous songez à lui rendre, mais lui rendre maintenant après toutes ces péripéties serait absurde, il faut que vous trouviez un plan.
+
+- Lui dire que vous l'aviez depuis le début
+	Gattouz: Donald, je dois te l'avouer... depuis le début c'est moi qui ai ta perruque. Je t'ai berné.
+	Trump: Fils de pute de motherfucker, comment oses tu te payer ma tête ?!
+	Gattouz: Fermes la habibi, je voulais simplement rencontrer Stephen Hawking, tu n'étais qu'un moyen de parvenir a mes objectifs.
+	Trump: Tu le regretteras... C'est tout un pays que tu viens de te mettre à dos !
+	Gattouz: Nikoumouk, je n'ai pas peur des chauves non assumés.
+	Trump: Malheureusement pour toi, tu n'as aucun moyen de t'échapper de cette île.
+	
+	audio "res://assets/Trump/SONNERIE DE FOUET.mp3"
+	[wait time="1.0"]
+	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis....
+- Feindre de trouver la perruque au fond de la piscine
+	leave Gattouz
+	join gattouz_piscine rightmost
+	Gattouz: Attends ! je vois quelque chose au fond de la piscine !
+	leave gattouz_piscine
+	
+	audio "res://assets/Trump/bruit de plouf dans l'eau.mp3"
+	[wait time="2.0"]
+	join gattouz_piscine rightmost
+	Gattouz: Habibi, voici ta perruque.
+	Trump: OH MY FUCKING GOD, merci infiniment j'ai bien eu peur de ne jamais le retrouver.
+	leave gattouz_piscine
+	join Gattouz rightmost
+	Gattouz: Pas de soucis Habibi, c'était un plaisir de t'aider. Nous nous reverrons peut être à l'avenir.
+	Trump: FUCK YEAH MOTHERFUCKER !!!
+	leave Trump
+	[background arg="res://assets/main_story/cropped_street.png" fade="0.0"]
+	jump Chapter_3/Cancel_Trump
+- Vomir sur les chaussures de Trump
+	audio "res://assets/Trump/disgusting vomit sound effect.mp3"
+	[wait time="2.0"]
+
+	Gattouz: Oh... Pardon habibi, c'était plus fort que moi
+	Trump: MOTHERFUCKER, je vais te tuer fils de pute, tu viens de m'humilier !
+	Gattouz: Arrêtes de crier tu me fais mal au crâne
+	Trump: Tu le regretteras... C'est tout un pays que tu viens de te mettre à dos !
+	Gattouz: Nikoumouk, je n'ai pas peur de toi.
+	Trump: Malheureusement pour toi, tu n'as aucun moyen de t'échapper de cette île.
+	
+	audio "res://assets/Trump/SONNERIE DE FOUET.mp3"
+	[wait time="1.0"]
+	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis....
