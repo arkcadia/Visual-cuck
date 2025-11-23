@@ -9,6 +9,8 @@ extends Control
 @onready var endings = $Endings
 @onready var endings2 = $Endings2
 @onready var chapters_menu = $Chapters_menu
+@onready var credits_label = $credits_label
+@onready var back_about = $back_about
 var settings_open = false
 
 func _ready():
@@ -91,3 +93,16 @@ func _on_chapter_minotaure_pressed() -> void:
 
 func _on_back_button_pressed() -> void:
 	_on_load_chapter_pressed()
+
+func _on_about_pressed() -> void:
+	main_menu.visible = !main_menu.visible
+	title.visible = !title.visible
+	if (settings_open == true):
+		display_menu.visible = !display_menu.visible
+		settings_open = false
+	credits_label.show()
+	back_about.visible = !back_about.visible
+
+func _on_back_about_pressed() -> void:
+	_on_about_pressed()
+	credits_label.hide()

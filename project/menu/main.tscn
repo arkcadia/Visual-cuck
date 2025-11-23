@@ -148,6 +148,37 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
 text = "Quit"
 alignment = 0
 
+[node name="credits_label" type="Label" parent="UI/Menu"]
+visible = false
+layout_mode = 0
+offset_left = 221.0
+offset_top = 135.0
+offset_right = 891.0
+offset_bottom = 468.0
+theme_override_colors/font_color = Color(1, 0.1254902, 0.09411765, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 7
+theme_override_constants/shadow_outline_size = 1
+theme_override_font_sizes/font_size = 32
+text = "BEG TO PEG
++ Victor -> Créateur de l'histoire principale
++ Gaël -> Développeur Architecture
++ Valentin -> Développeur
++ Clément -> Créateur d'histoire secondaire
++ Titouan -> Créateur d'histoire secondaire
++ Alexy -> Créateur d'histoire secondaire"
+
+[node name="back_about" type="Button" parent="UI/Menu"]
+visible = false
+layout_mode = 0
+offset_left = 550.0
+offset_top = 500.0
+offset_right = 616.0
+offset_bottom = 543.0
+theme_override_colors/font_color = Color(0.8709976, 0, 0.14088187, 1)
+theme_override_font_sizes/font_size = 25
+text = "Back"
+
 [node name="Endings" type="Control" parent="UI/Menu"]
 visible = false
 anchors_preset = 0
@@ -720,22 +751,14 @@ theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 
 theme_override_font_sizes/font_size = 23
 text = "Back"
 
-[node name="Next_button" type="Button" parent="UI/Menu/Chapters_menu"]
-layout_mode = 0
-offset_left = 1055.0
-offset_top = 580.0
-offset_right = 1116.0
-offset_bottom = 620.0
-theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
-theme_override_font_sizes/font_size = 23
-text = "Next"
-
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="UI/Menu" method="_on_new_game_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/Load chapter" to="UI/Menu" method="_on_load_chapter_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/ending" to="UI/Menu" method="_on_ending_pressed"]
+[connection signal="pressed" from="UI/Menu/MainContain/About" to="UI/Menu" method="_on_about_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="UI/Menu/back_about" to="UI/Menu" method="_on_back_about_pressed"]
 [connection signal="pressed" from="UI/Menu/Endings/next" to="UI/Menu" method="_on_next_pressed"]
 [connection signal="pressed" from="UI/Menu/Endings/Quit" to="UI/Menu" method="_on_quit_pressed"]
 [connection signal="pressed" from="UI/Menu/Endings2/previous" to="UI/Menu" method="_on_previous_pressed"]
