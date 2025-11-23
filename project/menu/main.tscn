@@ -11,13 +11,13 @@
 [ext_resource type="Texture2D" uid="uid://bjyef6ekxcoc6" path="res://resources/sprites/mystery.jpg" id="7_e7lu8"]
 [ext_resource type="Texture2D" uid="uid://bmx5yhk511y28" path="res://resources/sprites/socks.jpg" id="7_srxbw"]
 [ext_resource type="Texture2D" uid="uid://d1fwqxc6bhcqb" path="res://resources/sprites/ArrowsRight.png" id="8_kf8lf"]
-[ext_resource type="AudioStream" uid="uid://dac5s00o34t62" path="res://resources/sounds/MenuMusic.mp3" id="9_kf8lf"]
 [ext_resource type="Texture2D" uid="uid://cj5tsqm8naeky" path="res://resources/sprites/bigfish.jpg" id="10_e7lu8"]
 [ext_resource type="Texture2D" uid="uid://c3it2xnyrw4qc" path="res://resources/sprites/asmrminotaure.jpg" id="11_okx7f"]
 [ext_resource type="Texture2D" uid="uid://b3r2j64xtk18b" path="res://resources/characters/ssj_gattouz.png" id="11_sta5p"]
 [ext_resource type="Texture2D" uid="uid://fm2bx83kt4wb" path="res://resources/sprites/asterion.jpg" id="13_sif16"]
 [ext_resource type="Texture2D" uid="uid://byw72jydujwoh" path="res://resources/characters/gayttouz-removebg-preview.png" id="14_sta5p"]
 [ext_resource type="Texture2D" uid="uid://b21afgmk4b6s0" path="res://resources/sprites/epstein_island.jpeg" id="15_sif16"]
+[ext_resource type="AudioStream" uid="uid://brdw8uqwa2bpa" path="res://project/menu/Untitled-1.wav" id="18_a21tm"]
 [ext_resource type="Texture2D" uid="uid://ykf06lrhx3wr" path="res://resources/backgrounds/mansion_inside.png" id="19_mi0we"]
 [ext_resource type="Texture2D" uid="uid://bd2io71nbwalh" path="res://resources/backgrounds/motelroom.jpg" id="20_ro3n7"]
 [ext_resource type="Texture2D" uid="uid://c22yjovr0d1x" path="res://resources/backgrounds/manifestation2.jpg" id="20_w0a2v"]
@@ -523,7 +523,7 @@ offset_bottom = 228.0
 value = 50.0
 
 [node name="MusicPlayer" type="AudioStreamPlayer" parent="UI/Menu"]
-stream = ExtResource("9_kf8lf")
+stream = ExtResource("18_a21tm")
 volume_db = -20.0
 
 [node name="Chapters_menu" type="Control" parent="UI/Menu"]
