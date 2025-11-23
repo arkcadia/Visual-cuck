@@ -57,7 +57,8 @@ Narrator: Pris d'un élan de culpabilité, vous songez à lui rendre, mais lui r
 	
 	audio "res://resources/sounds/SONNERIE DE FOUET.mp3"
 	[wait time="1.0"]
-	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis....
+	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis...
+	set Global.trump_ending = true
 - Feindre de trouver la perruque au fond de la piscine
 	leave Gattouz
 	join gattouz_piscine rightmost
@@ -89,4 +90,5 @@ Narrator: Pris d'un élan de culpabilité, vous songez à lui rendre, mais lui r
 	
 	audio "res://resources/sounds/SONNERIE DE FOUET.mp3"
 	[wait time="1.0"]
-	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis....
+	Narrator: Après cette farce de mauvais goût, Gatouz ne repartira jamais de Epstein Island, nous sommes sans nouvelles depuis...
+	set Global.trump_ending = true

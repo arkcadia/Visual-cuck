@@ -1,4 +1,6 @@
 label Kirby_verse
+[background arg="res://resources/backgrounds/cropped_street.png" fade="0.0"]
+
 Narrator: Après avoir marché de longues heures, Gatouz arrive devant un grand lac avec des montagnes en fond. A quelques mètres de lui se trouve un personnage intriguant qui le fixe.
 [background arg="res://resources/backgrounds/ANNECY.webp" fade="0.0"]
 join Gattouz (BG) left [animation="Slide From Left"]
@@ -6,4 +8,7 @@ Gattouz (BG): Salam aleykoum t’es qui?
 join Unknown right [animation="Slide From Right"]
 Unknown: Je me nomme Asterion le Bon et je suis le maître de ce domaine
 Unknown: (se retourne et pointe du doigts un immense manoir de l'autre côté du lac)
-set {Global.start_cutscene} = true
+leave --All-- 
+set Global.go_to_menu = false
+set Global.start_cutscene = true
+[end_timeline]

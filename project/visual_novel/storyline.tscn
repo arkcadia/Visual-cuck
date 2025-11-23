@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bwshc6fuxsc1m"]
 
-[ext_resource type="Script" uid="uid://x61ppm2y5vth" path="res://storyline/start_timeline.gd" id="1_amaix"]
+[ext_resource type="Script" uid="uid://x61ppm2y5vth" path="res://project/visual_novel/start_timeline.gd" id="1_amaix"]
 
 [node name="Control" type="Control"]
 layout_mode = 3

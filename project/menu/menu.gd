@@ -87,6 +87,7 @@ func _on_chapter_trump_pressed() -> void:
 
 func _on_chapter_minotaure_pressed() -> void:
 	Global.chapter_name = "Kirby_verse"
+	_on_new_game_pressed()
 
 func _on_back_button_pressed() -> void:
 	_on_load_chapter_pressed()
