@@ -1,3 +1,4 @@
+label chapter_2
 [wait time="1.0"]
 [background arg="res://resources/backgrounds/manifestation2.jpg" fade="0.0"]
 

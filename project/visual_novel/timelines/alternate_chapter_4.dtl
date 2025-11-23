@@ -178,6 +178,7 @@ Narrator: Asterion décroise les bras et soupire.
 Narrator: Il va vers Gattouz, puis le soulève doucement.
 Asterion (asterion avec arme): Reviens, frère. C’est fini.
 Asterion (asterion avec arme): Je t’ai dit \: je te laisserai jamais tomber.
+join Gattouz (BG) right 
 Narrator: Gattouz sourit faiblement.
 Gattouz: Wesh… t’es vraiment un monstre.
 Gattouz: Mais un monstre qui fait plaisir.
