@@ -108,6 +108,7 @@ leave Asterion
 Narrator: Gatouz remporte le combat.
 Narrator: Il fouille entierrement le manoir et se rend compte que khalamité n'y est pas.
 Narrator: Il repart donc a la recherche de Cuck Lord.
+jump Chapter_4/Debut_Chapitre_4
 label Ne pas achever Asterion
 Narrator: Gatouz tourne le dos à Asterion
 Narrator: Asterion en profite et lance une attaque devastatrice qui pulverise Gattouz

@@ -90,7 +90,7 @@ Gattouz: J'en ai rien à faire de ton histoire !
 Gattouz: Tu n'avais pas à toucher à [b]HABIBI[/b] !
 Narrator: Il lui met un grand coup de chaise.
 cuck_lord: [i](en larmes)[/i]
-Attention! 
+Attention!
 J'ai de l'influence aux aéroports...
 cuck_lord: Frappe moi encore une fois... et je t'enverrai à Berlin !
 Narrator: Gattouz repense à son voyage au japon, son coeur se serre.
@@ -129,60 +129,62 @@ join cuck_lord (KING) right
 Narrator: [b]LA DIVINITÉ CUCK[/b]
 Narrator: Il frappe Gattouz d'un coup d'aura pure.
 Narrator: Le héro s'évanouit.
+leave Gattouz [animation="Slide Out Down"]
+Narrator: Gattouz gisait au sol, inconscient, son corps encore marqué par l’affrontement contre le Cuck Lord.
+Le tyran sombre avançait lentement vers lui, un sourire malsain étirant son visage.
+cuck_lord: Alors c’est ça… le grand Gattouz ?
+Un simple mortel qui tombe avant même ma vraie puissance…
+Narrator: Soudain, un grondement résonna derrière lui.
+(d’une voix profonde et glaciale)
+Recule maintenant
+Narrator: Le Cuck Lord se tourne et voit Asterion…tenant dans ses mains un immense tapis, roulé comme une arme mythique.
+join Asterion (asterion avec arme) left
+cuck_lord (KING): Qu’est-ce que… un tapis ?
+cuck_lord (KING): Tu comptes me battre avec ça ?
+Asterion (asterion avec arme): (s’avance, yeux brillants)
+Asterion (asterion avec arme): Ce tapis vient de mon manoir.
+Asterion (asterion avec arme): Il date d’une époque où les tapis étaient plus dangereux que la plupart des guerriers.
+Asterion (asterion avec arme): Tu vas comprendre.
+Narrator: Asterion déroule soudain le tapis d’un geste violent.
+Narrator: Le bruit du tissu claque comme un tonnerre.
+Asterion (asterion avec arme): TAPIS DIVIN \: FRAPPE DU TISSU ÉTERNEL !
+Narrator: Il fouette l’air et projette une onde de choc qui repousse le Cuck Lord de plusieurs mètres.
+Narrator: Les murs tremblent.
+cuck_lord (KING): Impossible… Comment une simple carpette—
+Asterion (asterion avec arme): Ce n’est PAS une carpette.
+Asterion (asterion avec arme): C’est un artefact.
+Asterion (asterion avec arme): Un tapis qui a absorbé la poussière et la rage de mille générations.
+Narrator: Asterion tourne sur lui-même, tapis dans les deux mains.
+Asterion (asterion avec arme): Tourbillon du Ménage Ultime !
+Narrator: Le tapis tourne à une vitesse insensée, créant un vortex de poussière arcane qui frappe le Cuck Lord de plein fouet et le projette contre un pilier.
+Narrator: Au sol, Gattouz ouvre faiblement les yeux.
+Gattouz: (khouya ? t’es là…?)
+Gattouz: C’est quoi ce bazar ?
+Asterion (asterion avec arme): (rit doucement sans quitter le Cuck Lord du regard)
+Asterion (asterion avec arme): Repose-toi, Gattouz.
+Asterion (asterion avec arme): Je m’occupe de lui.
+Narrator: Le Cuck Lord se relève, chancelant.
+cuck_lord: Tu… tu n’es pas humain…
+Asterion (asterion avec arme): Je suis ton dernier avertissement.
+Narrator: Il roule à nouveau le tapis dans ses mains, prêt à l’écraser.
+Asterion (asterion avec arme): Pour Gattouz.
+Asterion (asterion avec arme): Pour Khalamité.
+Asterion (asterion avec arme): Pour la paix.
+Asterion (asterion avec arme): TAPIS SUPRÊME \: ENROULAGE FINAL !
+Narrator: Le tapis se déploie comme une bête vivante et enveloppe le Cuck Lord, le serrant jusqu’à l’immobiliser complètement.
+Narrator: Le tyran hurle, puis disparaît dans le pliage mystique du tissu.
+Narrator: Silence.
+Narrator: Asterion décroise les bras et soupire.
+Narrator: Il va vers Gattouz, puis le soulève doucement.
+Asterion (asterion avec arme): Reviens, frère. C’est fini.
+Asterion (asterion avec arme): Je t’ai dit \: je te laisserai jamais tomber.
+Narrator: Gattouz sourit faiblement.
+Gattouz: Wesh… t’es vraiment un monstre.
+Gattouz: Mais un monstre qui fait plaisir.
+Narrator: Asterion sourit à son tour.
+Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
 leave --All--
-
-[background arg="res://resources/backgrounds/black_background.jpg" fade="0.0"]
-[wait time="2.0"]
-
-Narrator: Gattouz flotte dans le néant.
-Deux avenirs s'offrent à lui.
-- Spider Gattouz
-	Narrator: Une araignée fluorescente s'approche de son bras...
-	Narrator: Gattouz se laisse mordre.
-	Narrator: Une puissance infinie traverse son corps.
-	[background arg="res://resources/backgrounds/mansion_inside.png" fade="0.0"]
-	Narrator: Il se relève dans le monde réel.
-	Sa force est décuplée.
-	join Gattouz (spiderman) left
-	join cuck_lord (KING) right
-	Gattouz: [b]STÉPHANE !!![/b]
-	Narrator: Il lui met une droite...
-	Narrator: [b]UNE DROITE MYTHIQUE[/b].
-	Narrator: Le Cuck Lord est projeté à travers trois murs et meurt sur le coup.
-	leave cuck_lord
-	join Gattouz (spiderman) center
-	Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
-	leave --All--
-	[background arg="res://aresources/backgrounds/fin_villa.png" fade="0.0"]
-	[wait time="1.0"]
-	[b]FIN[/b]
-	[wait time="3.0"]
-
-- SSJ Gattouz
-	Narrator: 7 boules de dragons se mettent à tourbilloner autour de Gattouz...
-	Narrator: Son coeur explose d'énergie.
-	Narrator: La pièce tremble.
-	Narrator: L'air devient lourd.
-	Narrator: Sa peau brille !
-	[background arg="res://resources/backgrounds/mansion_inside.png" fade="0.0"]
-	Narrator: Il se relève dans le monde réel.
-	Sa force est décuplée.
-	join Gattouz (Super Saiyan) left
-	join cuck_lord (KING) right
-	Gattouz: [b]AAAAAAAAAAAAAAAAAAAAAH !!![/b]
-	Gattouz: Ne t'en fais pas Habibi.
-	Je suis là maintenant.
-	Narrator: Il charge une attaque légendaire.
-	Gattouz: [b]KAME...[/b]
-	[b]ALLAAAAAH !!![/b]
-	Narrator: Le projectile sacré frappe Stéphane de plein fouet.
-	Narrator: Il s'effondre sec.
-	leave cuck_lord
-	join Gattouz (Super Saiyan) center
-	Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
-	leave --All--
-	[background arg="res://resources/backgrounds/fin_villa.png" fade="0.0"]
-	[wait time="1.0"]
-	[b]FIN[/b]
-	[wait time="3.0"]
-join  center
+[background arg="res://resources/backgrounds/fin_villa.png" fade="0.0"]
+[wait time="1.0"]
+[b]FIN[/b]
+[wait time="3.0"]
