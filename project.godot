@@ -28,6 +28,7 @@ directories/dch_directory={
 "Adorateur_2": "res://project/visual_novel/characters/Adorateur_2.dch",
 "Asterion": "res://project/visual_novel/characters/Asterion.dch",
 "Cuck_monk": "res://project/visual_novel/characters/Cuck_monk.dch",
+"Dourcade Laforian": "res://project/visual_novel/characters/Dourcade Laforian.dch",
 "Foule_Cuck": "res://project/visual_novel/characters/Foule_Cuck.dch",
 "Gattouz": "res://project/visual_novel/characters/Gattouz.dch",
 "Gayttouz": "res://project/visual_novel/characters/Gayttouz.dch",
@@ -62,6 +63,8 @@ directories/dtl_directory={
 "Gayttouze_Chapter": "res://project/visual_novel/timelines/Gayttouze_Chapter.dtl",
 "Kirby_verse": "res://project/visual_novel/timelines/Kirby_verse.dtl",
 "Sock_Ending": "res://project/visual_novel/timelines/Sock_Ending.dtl",
+"kirby_verse_suite": "res://project/visual_novel/timelines/kirby_verse_suite.dtl",
+"timelines/Trump_Chapter": "res://project/visual_novel/timelines/Trump_Chapter.dtl,
 "Trump_Chapter": "res://project/visual_novel/timelines/Trump_Chapter.dtl",
 "alternate_chapter_4": "res://project/visual_novel/timelines/alternate_chapter_4.dtl",
 "kirby_verse_suite": "res://project/visual_novel/timelines/kirby_verse_suite.dtl"
