@@ -1,5 +1,7 @@
 label Trump_Chapter
 
+[background arg="res://resources/backgrounds/cropped_street.png" fade="0.0"]
+
 join Trump right
 Trump: FUCK YEAHHHHH, j'ai perdu ma perruque, saurais tu où elle est ? Je te donnerais un million de $ dollars $ si tu la trouves.
 Gattouz: [i]Qui est ce drole d'individu... Son crâne est si scintillant que je me vois ébloui par cet éclat de lumière.[/i]

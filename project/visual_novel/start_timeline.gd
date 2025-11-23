@@ -10,7 +10,7 @@ func _input(_event: InputEvent) -> void:
 	if Dialogic.current_timeline != null:
 		return
 	if Dialogic.current_timeline == null:
-		Dialogic.start("Chapter_1")
+		Dialogic.start(Global.chapter_name)
 		get_viewport().set_input_as_handled()
 
 func _on_timeline_ended():

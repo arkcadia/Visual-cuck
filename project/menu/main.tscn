@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://ccqntl865eqmi"]
+[gd_scene load_steps=27 format=3 uid="uid://ccqntl865eqmi"]
 
 [ext_resource type="Script" uid="uid://b310vjoivqxkt" path="res://project/menu/main.gd" id="1_3cfgd"]
 [ext_resource type="Texture2D" uid="uid://3722kjsnxjj0" path="res://resources/sprites/menu_background.jpeg" id="1_eewff"]
@@ -18,6 +18,13 @@
 [ext_resource type="Texture2D" uid="uid://fm2bx83kt4wb" path="res://resources/sprites/asterion.jpg" id="13_sif16"]
 [ext_resource type="Texture2D" uid="uid://byw72jydujwoh" path="res://resources/characters/gayttouz-removebg-preview.png" id="14_sta5p"]
 [ext_resource type="Texture2D" uid="uid://b21afgmk4b6s0" path="res://resources/sprites/epstein_island.jpeg" id="15_sif16"]
+[ext_resource type="Texture2D" uid="uid://ykf06lrhx3wr" path="res://resources/backgrounds/mansion_inside.png" id="19_mi0we"]
+[ext_resource type="Texture2D" uid="uid://bd2io71nbwalh" path="res://resources/backgrounds/motelroom.jpg" id="20_ro3n7"]
+[ext_resource type="Texture2D" uid="uid://c22yjovr0d1x" path="res://resources/backgrounds/manifestation2.jpg" id="20_w0a2v"]
+[ext_resource type="Texture2D" uid="uid://bnbovleoorgam" path="res://resources/backgrounds/cropped_street.png" id="21_j4ub7"]
+[ext_resource type="Texture2D" uid="uid://ca5x8xh0x6ifk" path="res://resources/backgrounds/devantsnack.jpg" id="23_a21tm"]
+[ext_resource type="Texture2D" uid="uid://bx64rit108yuk" path="res://resources/backgrounds/snack.png" id="23_j4ub7"]
+[ext_resource type="Texture2D" uid="uid://bqjpg6rd4m3vs" path="res://resources/backgrounds/le_travail_de_Neyjah.png" id="24_phw34"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_gh0ne"]
 
@@ -34,10 +41,10 @@ texture = ExtResource("1_eewff")
 [node name="Menu" type="Control" parent="UI"]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 5.0
-offset_top = 2.0
-offset_right = 1154.0
-offset_bottom = 648.0
+offset_left = -2.0
+offset_top = -2.0
+offset_right = 1147.0
+offset_bottom = 644.0
 script = ExtResource("3_5mrjc")
 
 [node name="Title" type="Label" parent="UI/Menu"]
@@ -75,7 +82,7 @@ text = "New Game
 "
 alignment = 0
 
-[node name="Load game" type="Button" parent="UI/Menu/MainContain"]
+[node name="Load chapter" type="Button" parent="UI/Menu/MainContain"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0.99607843, 0, 0, 1)
 theme_override_colors/font_focus_color = Color(0.53333336, 0, 0, 1)
@@ -84,7 +91,7 @@ theme_override_colors/icon_focus_color = Color(0.53333336, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_3cfgd")
 theme_override_font_sizes/font_size = 38
 theme_override_styles/normal = SubResource("StyleBoxEmpty_gh0ne")
-text = "Load Game
+text = "Load Chapter
 "
 alignment = 0
 
@@ -518,7 +525,213 @@ value = 50.0
 [node name="MusicPlayer" type="AudioStreamPlayer" parent="UI/Menu"]
 stream = ExtResource("9_kf8lf")
 
+[node name="Chapters_menu" type="Control" parent="UI/Menu"]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Chapter1" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 180.0
+offset_right = 375.0
+offset_bottom = 220.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_font_sizes/font_size = 23
+text = "Chapter 1"
+
+[node name="Chapter2" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 380.0
+offset_right = 375.0
+offset_bottom = 420.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Chapter 2"
+
+[node name="Chapter3" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 580.0
+offset_right = 375.0
+offset_bottom = 623.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 25
+text = "Chapter 3"
+
+[node name="Chapter4" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 180.0
+offset_right = 700.0
+offset_bottom = 220.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Chapter 4"
+
+[node name="ChapterBrazil" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 380.0
+offset_right = 700.0
+offset_bottom = 420.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Extra Brazil"
+
+[node name="ChapterMortadon" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 580.0
+offset_right = 700.0
+offset_bottom = 620.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Extra Mortadon"
+
+[node name="ChapterGayttouzz" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 180.0
+offset_right = 1025.0
+offset_bottom = 220.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Extra Gayttouze"
+
+[node name="ChapterMinotaure" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 580.0
+offset_right = 1025.0
+offset_bottom = 620.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_font_sizes/font_size = 23
+text = "Extra Astérion"
+
+[node name="ChapterTrump" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 380.0
+offset_right = 1025.0
+offset_bottom = 420.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_colors/icon_hover_pressed_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 23
+text = "Extra Trump"
+
+[node name="Chapter1_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 30.0
+offset_right = 375.0
+offset_bottom = 180.0
+texture = ExtResource("20_ro3n7")
+expand_mode = 1
+
+[node name="Chapter2_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 230.0
+offset_right = 375.0
+offset_bottom = 380.0
+texture = ExtResource("20_w0a2v")
+expand_mode = 1
+
+[node name="Chapter3_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 150.0
+offset_top = 430.0
+offset_right = 375.0
+offset_bottom = 580.0
+texture = ExtResource("21_j4ub7")
+expand_mode = 1
+
+[node name="Chapter4_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 30.0
+offset_right = 700.0
+offset_bottom = 180.0
+texture = ExtResource("19_mi0we")
+expand_mode = 1
+
+[node name="ChapterBrazil_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 230.0
+offset_right = 700.0
+offset_bottom = 380.0
+texture = ExtResource("23_a21tm")
+expand_mode = 1
+
+[node name="ChapterMortadon_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 475.0
+offset_top = 430.0
+offset_right = 700.0
+offset_bottom = 580.0
+texture = ExtResource("23_j4ub7")
+expand_mode = 1
+
+[node name="ChapterGayttouze_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 30.0
+offset_right = 1025.0
+offset_bottom = 180.0
+texture = ExtResource("24_phw34")
+expand_mode = 1
+
+[node name="ChapterTrump_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 230.0
+offset_right = 1025.0
+offset_bottom = 380.0
+texture = ExtResource("15_sif16")
+expand_mode = 1
+
+[node name="ChapterAsterion_preview" type="TextureRect" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 800.0
+offset_top = 430.0
+offset_right = 1025.0
+offset_bottom = 580.0
+texture = ExtResource("13_sif16")
+expand_mode = 1
+
+[node name="Back_button" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 580.0
+offset_right = 101.0
+offset_bottom = 620.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_font_sizes/font_size = 23
+text = "Back"
+
+[node name="Next_button" type="Button" parent="UI/Menu/Chapters_menu"]
+layout_mode = 0
+offset_left = 1055.0
+offset_top = 580.0
+offset_right = 1116.0
+offset_bottom = 620.0
+theme_override_colors/font_color = Color(0.98274976, 6.08854e-06, 1.540184e-06, 1)
+theme_override_font_sizes/font_size = 23
+text = "Next"
+
 [connection signal="pressed" from="UI/Menu/MainContain/New game" to="." method="_on_new_game_pressed"]
+[connection signal="pressed" from="UI/Menu/MainContain/New game" to="UI/Menu" method="_on_new_game_pressed"]
+[connection signal="pressed" from="UI/Menu/MainContain/Load chapter" to="UI/Menu" method="_on_load_chapter_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/SettingsButton" to="UI/Menu" method="_on_settings_button_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/ending" to="UI/Menu" method="_on_ending_pressed"]
 [connection signal="pressed" from="UI/Menu/MainContain/Quit" to="." method="_on_quit_pressed"]
@@ -526,3 +739,13 @@ stream = ExtResource("9_kf8lf")
 [connection signal="pressed" from="UI/Menu/Endings/Quit" to="UI/Menu" method="_on_quit_pressed"]
 [connection signal="pressed" from="UI/Menu/Endings2/previous" to="UI/Menu" method="_on_previous_pressed"]
 [connection signal="value_changed" from="UI/Menu/DisplaySelector/VolumeSlider" to="UI/Menu" method="_on_h_slider_value_changed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/Chapter1" to="UI/Menu" method="_on_chapter_1_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/Chapter2" to="UI/Menu" method="_on_chapter_2_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/Chapter3" to="UI/Menu" method="_on_chapter_3_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/Chapter4" to="UI/Menu" method="_on_chapter_4_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/ChapterBrazil" to="UI/Menu" method="_on_chapter_brazil_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/ChapterMortadon" to="UI/Menu" method="_on_chapter_mortadon_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/ChapterGayttouzz" to="UI/Menu" method="_on_chapter_gayttouzz_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/ChapterMinotaure" to="UI/Menu" method="_on_chapter_minotaure_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/ChapterTrump" to="UI/Menu" method="_on_chapter_trump_pressed"]
+[connection signal="pressed" from="UI/Menu/Chapters_menu/Back_button" to="UI/Menu" method="_on_back_button_pressed"]

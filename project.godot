@@ -59,7 +59,7 @@ directories/dtl_directory={
 "Combat_mortadon": "res://project/visual_novel/timelines/Combat_mortadon.dtl",
 "Gayttouze_Chapter": "res://project/visual_novel/timelines/Gayttouze_Chapter.dtl",
 "Sock_Ending": "res://project/visual_novel/timelines/Sock_Ending.dtl",
-"Trump_Chapter": "res://project/visual_novel/characters/Trump_Chapter.dtl"
+"Trump_Chapter": "res://project/visual_novel/timelines/Trump_Chapter.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"
