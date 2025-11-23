@@ -37,9 +37,23 @@ label choix_debut
 Narrator: Mais dans ce taudis misérable, une seule chose semble encore debout…
 [background arg="res://resources/backgrounds/motelroom.jpg" fade="0.0"]
 - Chaise
-	jump Chapter_2/ChaiseChoisie
+	jump ChaiseChoisie
 - Chaussette
 	jump Sock_Ending/SockEnding
 - La sauce brazil pas nette | [if {Sauce_pas_net} == false]
 	set {Sauce_pas_net} = true
 	jump Brazil_Chapter/Brazil_sauce
+
+label ChaiseChoisie
+
+[background arg="res://resources/backgrounds/motelroom.jpg" fade="0.0"]
+
+join Gattouz center
+Gattouz: [i](regardant la chaise)[/i]\
+Toi…
+Gattouz: ...
+Gattouz: [i](prenant la chaise à deux mains)[/i]\
+Tu seras mon épée.
+leave Gattouz
+Narrator: Résigné à venger Kalamité, Gattouz se dirige vers la porte armé de sa chaise, prêt à braver l'inimaginable.
+- Sortir

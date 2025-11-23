@@ -8,6 +8,7 @@ extends Control
 @onready var title = $Title
 @onready var endings = $Endings
 @onready var endings2 = $Endings2
+@onready var chapters_menu = $Chapters_menu
 var settings_open = false
 
 func _ready():
@@ -40,3 +41,52 @@ func _on_next_pressed() -> void:
 
 func _on_previous_pressed() -> void:
 	_on_next_pressed()
+
+func _on_load_chapter_pressed() -> void:
+	main_menu.visible = !main_menu.visible
+	title.visible = !title.visible
+	if (settings_open == true):
+		display_menu.visible = !display_menu.visible
+		settings_open = false
+	chapters_menu.visible = !chapters_menu.visible
+
+func _on_new_game_pressed() -> void:
+	get_tree().change_scene_to_file("res://project/visual_novel/storyline.tscn")
+
+func _on_chapter_1_pressed() -> void:
+	Global.chapter_name = "Chapter_1"
+	_on_new_game_pressed()
+
+func _on_chapter_2_pressed() -> void:
+	Global.chapter_name = "Chapter_2"
+	_on_new_game_pressed()
+
+func _on_chapter_3_pressed() -> void:
+	Global.chapter_name = "Chapter_3"
+	_on_new_game_pressed()
+	
+func _on_chapter_4_pressed() -> void:
+	Global.chapter_name = "Chapter_4"
+	_on_new_game_pressed()
+
+func _on_chapter_brazil_pressed() -> void:
+	Global.chapter_name = "Brazil_Chapter"
+	_on_new_game_pressed()
+
+func _on_chapter_mortadon_pressed() -> void:
+	Global.chapter_name = "Combat_mortadon"
+	_on_new_game_pressed()
+
+func _on_chapter_gayttouzz_pressed() -> void:
+	Global.chapter_name = "Gayttouze_Chapter"
+	_on_new_game_pressed()
+
+func _on_chapter_trump_pressed() -> void:
+	Global.chapter_name = "Trump_Chapter"
+	_on_new_game_pressed()
+
+func _on_chapter_minotaure_pressed() -> void:
+	Global.chapter_name = "Kirby_verse"
+
+func _on_back_button_pressed() -> void:
+	_on_load_chapter_pressed()
