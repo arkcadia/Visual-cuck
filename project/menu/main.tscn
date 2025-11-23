@@ -435,7 +435,7 @@ offset_right = 375.0
 offset_bottom = 280.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
-text = "Grindr #1"
+text = "Gayttouze"
 horizontal_alignment = 1
 
 [node name="LabelEnding8" type="Label" parent="UI/Menu/Endings2"]
@@ -446,7 +446,7 @@ offset_right = 700.0
 offset_bottom = 280.0
 theme_override_colors/font_color = Color(1, 0, 0, 1)
 theme_override_font_sizes/font_size = 19
-text = "Grindr #2"
+text = "Epstein"
 horizontal_alignment = 1
 
 [node name="DisplaySelector" type="Control" parent="UI/Menu"]

@@ -161,6 +161,7 @@ Deux avenirs s'offrent à lui.
 	Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
 	leave --All--
 	[background arg="res://aresources/backgrounds/fin_villa.png" fade="0.0"]
+	set Global.main_ending_spiderman = true
 	[wait time="1.0"]
 	[b]FIN[/b]
 	[wait time="3.0"]
@@ -189,6 +190,7 @@ Deux avenirs s'offrent à lui.
 	Narrator: Gattouz prend Khalamité dans ses bras et s'enfuit du manoir en ruines.
 	leave --All--
 	[background arg="res://resources/backgrounds/fin_villa.png" fade="0.0"]
+	set Global.main_ending_ssj = true
 	[wait time="1.0"]
 	[b]FIN[/b]
 	[wait time="3.0"]
