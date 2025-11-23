@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c65iooy4ih0n5"]
+
+[ext_resource type="VideoStream" uid="uid://c6e1uf1ee4k1s" path="res://resources/video/asterion-annecy.ogv" id="1_dolvs"]
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer"]
+top_level = true
+visibility_layer = 2
+anchors_preset = -1
+anchor_right = 0.120000005
+anchor_bottom = 0.136
+offset_right = -98.240005
+offset_bottom = -48.128006
+stream = ExtResource("1_dolvs")
+autoplay = true
