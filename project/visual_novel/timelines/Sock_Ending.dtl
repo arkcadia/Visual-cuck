@@ -1,0 +1,9 @@
+label SockEnding
+[background arg="res://resources/backgrounds/cum_sock.jpg" fade="0.0"]
+join Gattouz leftmost
+Gattouz: Cette chaussette est beaucoup trop lourde.
+Gattouz: Elle a l'air très suspecte...
+
+set Global.sock_ending = true
+
+[end_timeline]

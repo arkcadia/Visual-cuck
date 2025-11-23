@@ -18,50 +18,48 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
-Global="*res://src/Global.gd"
+Global="*res://project/menu/Global.gd"
 
 [dialogic]
 
 directories/dch_directory={
-"8_bits_npc": "res://storyline/8_bits_npc.dch",
-"Adorateiur": "res://assets/main_story/Adorateiur.dch",
-"Adorateur_2": "res://assets/main_story/Adorateur_2.dch",
-"Cuck_monk": "res://storyline/Cuck_monk.dch",
-"Foule_Cuck": "res://storyline/Foule_Cuck.dch",
-"Gattouz": "res://storyline/Gattouz.dch",
-"Gayttouz": "res://assets/Gaytouzze/Gayttouz.dch",
-"Glitched_Woman": "res://storyline/Glitched_Woman.dch",
-"Grinder": "res://Grinder.dch",
-"Khalamite": "res://assets/main_story/Khalamite.dch",
-"Lettre": "res://storyline/Lettre.dch",
-"Lil Nas X": "res://Lil Nas X.dch",
-"McFish": "res://McFish.dch",
-"Mortadon": "res://storyline/Mortadon.dch",
-"Narrator": "res://storyline/Narrator.dch",
-"Stephen Hawking": "res://Stephen Hawking.dch",
-"Trump": "res://Trump.dch",
-"Voix_inconnue": "res://assets/mortadon/Voix_inconnue.dch",
-"adorateur_1": "res://assets/main_story/adorateur_1.dch",
-"character": "res://storyline/character.dch",
-"coeur": "res://assets/mortadon/coeur.dch",
-"coeurouge": "res://storyline/coeurouge.dch",
-"cuck_lord": "res://assets/main_story/cuck_lord.dch",
-"gatouzvert": "res://assets/mortadon/gatouzvert.dch",
-"gattouz_piscine": "res://assets/Trump/gattouz_piscine.dch",
-"purple_bearded_cuck": "res://storyline/purple_bearded_cuck.dch",
-"snack": "res://assets/mortadon/snack.dch",
-"weirdo": "res://weirdo.dch"
+"8_bits_npc": "res://project/visual_novel/characters/8_bits_npc.dch",
+"Adorateiur": "res://project/visual_novel/characters/Adorateiur.dch",
+"Adorateur_2": "res://project/visual_novel/characters/Adorateur_2.dch",
+"Cuck_monk": "res://project/visual_novel/characters/Cuck_monk.dch",
+"Foule_Cuck": "res://project/visual_novel/characters/Foule_Cuck.dch",
+"Gattouz": "res://project/visual_novel/characters/Gattouz.dch",
+"Gayttouz": "res://project/visual_novel/characters/Gayttouz.dch",
+"Glitched_Woman": "res://project/visual_novel/characters/Glitched_Woman.dch",
+"Grinder": "res://project/visual_novel/characters/Grinder.dch",
+"Khalamite": "res://project/visual_novel/characters/Khalamite.dch",
+"Lettre": "res://project/visual_novel/characters/Lettre.dch",
+"Lil Nas X": "res://project/visual_novel/characters/Lil Nas X.dch",
+"McFish": "res://project/visual_novel/characters/McFish.dch",
+"Mortadon": "res://project/visual_novel/characters/Mortadon.dch",
+"Narrator": "res://project/visual_novel/characters/Narrator.dch",
+"Stephen Hawking": "res://project/visual_novel/characters/Stephen Hawking.dch",
+"Trump": "res://project/visual_novel/characters/Trump.dch",
+"Voix_inconnue": "res://project/visual_novel/characters/Voix_inconnue.dch",
+"adorateur_1": "res://project/visual_novel/characters/adorateur_1.dch",
+"coeur": "res://project/visual_novel/characters/coeur.dch",
+"coeurouge": "res://project/visual_novel/characters/coeurouge.dch",
+"cuck_lord": "res://project/visual_novel/characters/cuck_lord.dch",
+"gattouz_piscine": "res://project/visual_novel/characters/gattouz_piscine.dch",
+"purple_bearded_cuck": "res://project/visual_novel/characters/purple_bearded_cuck.dch",
+"snack": "res://project/visual_novel/characters/snack.dch",
+"weirdo": "res://project/visual_novel/characters/weirdo.dch"
 }
 directories/dtl_directory={
-"Brazil_Chapter": "res://storyline/Brazil_Chapter.dtl",
-"Chapter_1": "res://storyline/Chapter_1.dtl",
-"Chapter_2": "res://storyline/Chapter_2.dtl",
-"Chapter_3": "res://assets/mortadon/Chapter_3.dtl",
-"Chapter_4": "res://storyline/Chapter_4.dtl",
-"Combat_mortadon": "res://assets/mortadon/Combat_mortadon.dtl",
-"Gayttouze_Chapter": "res://storyline/Gayttouze_Chapter.dtl",
-"Sock_Ending": "res://storyline/Sock_Ending.dtl",
-"Trump_Chapter": "res://storyline/Trump_Chapter.dtl"
+"Brazil_Chapter": "res://project/visual_novel/timelines/Brazil_Chapter.dtl",
+"Chapter_1": "res://project/visual_novel/timelines/Chapter_1.dtl",
+"Chapter_2": "res://project/visual_novel/timelines/Chapter_2.dtl",
+"Chapter_3": "res://project/visual_novel/timelines/Chapter_3.dtl",
+"Chapter_4": "res://project/visual_novel/timelines/Chapter_4.dtl",
+"Combat_mortadon": "res://project/visual_novel/timelines/Combat_mortadon.dtl",
+"Gayttouze_Chapter": "res://project/visual_novel/timelines/Gayttouze_Chapter.dtl",
+"Sock_Ending": "res://project/visual_novel/timelines/Sock_Ending.dtl",
+"Trump_Chapter": "res://project/visual_novel/characters/Trump_Chapter.dtl"
 }
 layout/style_directory={}
 extensions_folder="res://addons/dialogic_additions"

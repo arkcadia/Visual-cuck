@@ -1,0 +1,75 @@
+[background arg="res://resources/backgrounds/snack.png" fade="0.0"]
+
+Narrator: Vous avez fait le bon choix, on veut tous savoir comment ce combat va se finir.
+Narrator: C'est désormais à vous de répondre correctement aux questions pour que Lord Gattouz puisse découper ce vendeur de Sandwich !
+
+join Mortadon (boss) left
+join Gattouz (vert) right
+join coeur (3coeurvert) rightmost
+join coeurouge (3coeur) leftmost
+
+Gattouz: HABIBI !
+Mortadon: MONSTRE ! DOUBLE MONSTRE !!
+Narrator: Première question ! Quel est le métier de Gattouz ?
+label Première question
+- Acteur porno
+	Narrator: Félicitations.\
+	Passons à la prochaine question !
+- Joueur de Scrabble Professionnel
+	Narrator: T'es débile mec. C'est logique pourtant.\
+	On connait tous Gattouz pour ses parties de jambes en l'air.
+	jump Combat_mortadon/Première question
+
+leave coeurouge
+join coeurouge (2coeur) leftmost
+label deuxième_question
+Narrator: Deuxième question ! Être cocu c'est une pratique... ?
+- Religieuse
+	Narrator: FAUX ! FAUX ! Recommence !
+	jump Combat_mortadon/deuxième_question
+- Sexuelle
+	Mortadon: Félicitations.\
+	Prochaine et dernière question pour abattre Mortadon.
+leave coeurouge
+join coeurouge (1coeur) leftmost
+Gattouz: Mashallah khoya !
+Narrator: À vue d'oeil, Gattouz commence à retrouver ses couleurs !
+join Gattouz (BG) right 
+label Troisieme_question
+Narrator: Quel footballeur a été incarcéré pour avoir commis 7 viols ?? Intéressant non ?
+- Hakimi
+	Narrator: Tu dis ça parce qu'il est un peu... un peu...
+	jump Troisieme_question
+- Benjamin Mendy
+	jump Fin_question
+- Dani Alves
+	Narrator: Et non Dani n'a été incarcéré que pour agression sexuelle ! Dommage !
+	jump Troisieme_question
+label Fin_question
+Narrator: Félicitations !
+Narrator: C'est gagné pour toi ! Gattouz redeviens tout blanc.
+Narrator: MAIS ATTEND ! QUOI ?
+Il se transforme !
+leave --All--
+join Gattouz (spiderman) center
+Gattouz: Merci mon pote de m'avoir aidé !
+Gattouz: Après ce rude combat j'ai sauvagement faim...
+Gattouz: Je m'en vais en direction du Burger King de Pau !!
+Gattouz: Halal ou pas Halal je m'en bat les couilles !!
+leave Gattouz 
+
+[wait time="1.0"]
+[background arg="res://resources/backgrounds/burgerking_pau.jpg" fade="0.0"]
+
+Narrator: Après un court trajet,\
+Gattouz arrive devant le Burger King à pau route de Tarbes.
+Narrator: Il commande un menu mystère espérant trouver un double steakhouse.
+Narrator: Mais ce gros noob tombe sur un [b]SALE[/b] Big Fish.
+join Gattouz (spiderman) left
+join McFish right
+McFish: Bah alors loser t'es tombé sur moi ou quoi?
+McFish: Aller retourne te pignouf sur des Schtroumpfs.
+
+set Global.big_fish = true
+
+[end_timeline]

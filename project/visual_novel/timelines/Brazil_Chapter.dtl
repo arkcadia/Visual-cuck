@@ -1,0 +1,38 @@
+label Brazil_sauce
+
+[background arg="res://resources/backgrounds/snack.png" fade="0.0"]
+
+join Gattouz center
+Gattouz: [i](attrape la sauce et ouvre la bouche)[/i]\
+Allez coule à flots ma grande
+Gattouz: [i](appuie fort et laisse couler la sauce dans sa gorge)[/i]
+join Mortadon (brazil) left [animation="Bounce In" length="2.0"]
+Gattouz: [i](s'essuie la bouche remplie de sauce et se dirige vers la sortie)[/i]\
+Je me suis régalé mais cette sauce est vraiment pas nette je trouve
+leave --All--
+Narrator: Le ventre bien rempli, le saint gattouz sorti prendre l'air et remercier le chef
+- Sortir du snack
+
+[wait time="1.0"]
+[background arg="res://resources/backgrounds/devantsnack.jpg" fade="0.0"]
+
+join Gattouz (vert) center [animation="Slide In Down" length="1.0"]
+Gattouz (vert): AHHH ! Wallah le coran la sauce elle donne mal au ventre.
+Gattouz (vert): [i](en criant)[/i]\
+Eh toi ! Le mec là-bas! Aide moi !
+update Gattouz left
+join Mortadon (default) right [animation="Bounce In" length="3.0"]
+Mortadon: MONSTRE ! Ouais le sanglier !
+Mortadon: Dis-moi, y'a un problème ? T'es tout pâle le sans-conservateurs.
+join Gattouz (vert) left [animation="Slide In Up" length="2.0"]
+Gattouz: Oh pourquoi je suis vert moi wallah ? C'est quoi cette sauce zebi.
+Mortadon (colere): Excuse-moi le sans-soucis, tu parles à qui comme ça le sans-dwich ??
+Gattouz: Trouve un remède maintenant si tu veux pas que la foudre s'abatte sur ton anus wallah !
+Mortadon: Ramène toi tu vas goûter à la frappe de Marseille! MONSTRE !
+leave --All--
+Narrator: Un combat va éclater entre nos deux protagonistes, comment cela va t'il se finir ?
+
+- Rentrer se battre dans le snack
+	jump Combat_mortadon/
+- Fuir pour aller sauver Kalamité
+	jump Chapter_1/choix_debut

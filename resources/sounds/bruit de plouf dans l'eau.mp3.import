@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkljhlleho80f"
+path="res://.godot/imported/bruit de plouf dans l'eau.mp3-67e09dbb8bc80b49b2952e7da6321280.mp3str"
+
+[deps]
+
+source_file="res://resources/sounds/bruit de plouf dans l'eau.mp3"
+dest_files=["res://.godot/imported/bruit de plouf dans l'eau.mp3-67e09dbb8bc80b49b2952e7da6321280.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

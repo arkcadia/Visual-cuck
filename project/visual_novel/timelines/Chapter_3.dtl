@@ -1,0 +1,110 @@
+label Debut_Chapitre_3
+
+[background arg="res://resources/backgrounds/cropped_street.png" fade="0.0"]
+
+Narrator: Gattouz pénètre dans le quartier le plus sombre de Tekpi City.
+Narrator: Ce quartier, peuplé par la secte des [b]Dominants[/b].
+Narrator: Ici, règnent la drogue, la criminalité, la misère… et une forte odeur de kebab.
+Narrator: Les ruelles sont si étroites que même la lumière hésite à s’y aventurer.
+
+join Gattouz center 
+Gattouz: [i](inquiet)[/i]\
+Mon Dieu… c’est un labyrinthe…
+Gattouz: Comment atteindre le manoir de Cuck Lord dans ce chaos ?
+leave Gattouz 
+Narrator: Alors qu’il avance, sa chaise sacrée serrée contre lui,
+Narrator: Gattouz percute violemment un passant encapuchonné.
+Narrator: L’homme relève légèrement la tête… ses yeux brillant d’une paranoïa sauvage.
+join Gattouz left
+join weirdo right 
+weirdo: [i](paniqué)[/i]\
+Toi… je te reconnais… tu es GATTOUZ !
+leave --All--
+Narrator: Sans un mot de plus, l’homme fait demi-tour, paniqué.
+Narrator: Il s'enfuit dans la ruelle la plus proche.
+join Gattouz center
+Gattouz: Reviens ici, sale lâche !!!
+leave Gattouz 
+Narrator: Gattouz s'élance à ses trousses.
+Narrator: Bondissant par-dessus des caisses, glissant sous des linges malpropres.
+Narrator: La chaise brandie telle Escalibur.
+Narrator: Il le rattrape.
+Narrator: Soudain, l'homme trébuche et se retourne d'un geste brusque.\
+Il enlève sa capuche.
+Narrator: Tout d'un coup, deux hommes capuchés sortent de l'ombre, encerclant notre héro.
+join Gattouz center
+join adorateur_1 right 
+join Adorateur_2 leftmost 
+join Adorateiur rightmost
+adorateur_1: [i](d'une voix théâtrale)[/i]\
+Nous sommes... les Gardiens Sacrés du Roi Cuck.
+Adorateur_2: [i](bruit de cape très exagéré)[/i]\
+Si tu veux passer… tu vas devoir nous affronter.
+Gattouz: [i](serrant sa chaise, en colère)[/i]\
+POURQUOI FAITES-VOUS ÇA ?!
+Gattouz: Ne voyez-vous pas que le Cuck Lord…\
+est la représentation même du MAL ?!
+Narrator: Les quatre adorateurs éclatent d'un rire tordu.
+Adorateiur: Tu ne sais RIEN de lui !
+adorateur_1: Il prend soin de nous !
+Adorateur_2: Il nous chérit comme des enfants que sa femme aurait eu avec un renoi de 1m96, 25 cm dans le slip !
+Narrator: La phrase résonne dans la ruelle comme un blasphème sacré.\
+Même la lune hésite à briller.
+adorateur_1: Nous avons été nommés…
+Adorateur_2: Nous sommes les Adorateurs Exclusifs Rétoriques du Cuck Lord.
+Adorateiur: Et nous allons honorer ce titre… jusqu’à la mort !
+Narrator: Gattouz brandit sa chaise.
+Narrator: Il avance, lentement, sûr de lui.
+Narrator: Et lève sa chaise dans le ciel.
+Narrator: La lune frappe le bois poli… et la lumière se reflète en un flash aveuglant.
+Narrator: Les adorateurs reculent d’un pas.
+Adorateur_2: Impossible…
+adorateur_1: La Lumière Sacrée du Mobilier Béni…
+Gattouz: Cette chaise...
+Gattouz: C'est mon frère d'armes.
+Gattouz: Mon meilleur ami.
+Gattouz: Mon [b]DESTIN[/b].
+Narrator: Il fonce.
+[b]COUP 1 : "ضربة المشاعر السماوية"[/b]\
+(Darbat al-Machaâir as-Samawiya — Le Coup des Sentiments Célestes)
+Narrator: La chaise effectue un arc parfait et s'abat avec une violence inouïe sur le premier adorateur.
+Narrator: Il s'effondre net.
+leave adorateur_1 
+[b]COUP 2 : "صفعة الكرسي للضعفاء"[/b]\
+(Saf‘at al-Koursi lil-Du‘afa — La Baffe du Faible Destin)
+Narrator: Gattouz enchaîne avec un swing latéral.
+Narrator: L’Adorateur 2 se retrouve projeté contre un mur.
+leave Adorateur_2 
+[b]COUP 3 : "الضربة الأخيرة للحب الخالد"[/b]\
+(Al-Darb al-Akhira lil-Hubb al-Khalid — L’Ultime Coup de l’Amour Éternel)
+Narrator: Le dernier adorateur tente de fuir, mais Gattouz lui tombe dessus en rugissant.
+Narrator: Le coup de chaise s’abat comme un jugement divin.
+leave Adorateiur 
+Narrator: Les trois hommes sont au sol.
+Gattouz: Rien...
+Gattouz: Rien n'est plus fort que mon amour pour Habibi Kalamité.
+leave Gattouz 
+Narrator: Il se tourne vers le manoir, prêt à repartir.
+Narrator: Mais un adorateur agonisant attrape sa cheville.
+join Gattouz left
+join Adorateiur right
+Adorateiur: [i](d'une voix mourante)[/i]\
+Tu... tu n'es qu'un ignorant...
+Adorateiur: Le Cuck Lord... possède un pouvoir caché...
+Adorateiur: que seuls nous adeptes... connaissons...
+Adorateiur: [i](crachant du sang)[/i]\
+N-ne... ne le laisse...
+Adorateiur: paaaaas... s’aaaaassoooooir...
+leave Adorateiur 
+Narrator: Il expire dans un dernier gargouillis.
+
+[wait time="1.0"]
+Narrator: Dans sa chutte, l'adorateur a fait tombé une mystérieuse fourrure orange
+- Ignorer
+- Ramasser la fourrure
+	jump Trump_Chapter/Trump_Chapter
+label Cancel_Trump
+
+leave Gattouz
+
+jump Chapter_4/Debut_Chapitre_4
