@@ -7,7 +7,7 @@ Narrator: Ce quartier, peuplé par la secte des [b]Dominants[/b].
 Narrator: Ici, règnent la drogue, la criminalité, la misère… et une forte odeur de kebab.
 Narrator: Les ruelles sont si étroites que même la lumière hésite à s’y aventurer.
 
-join Gattouz center
+join Gattouz right
 Gattouz: [i](inquiet)[/i]
 Mon Dieu… c’est un labyrinthe…
 - gauche
@@ -17,6 +17,10 @@ Mon Dieu… c’est un labyrinthe…
 
 label Suite_chapitre_3
 Gattouz: Comment atteindre le manoir de Cuck Lord dans ce chaos ?
+join "Alex Hitchens" left
+"Alex Hitchens": Bodycount ???
+leave "Alex Hitchens" 
+Gattouz: ... 
 leave Gattouz
 Narrator: Alors qu’il avance, sa chaise sacrée serrée contre lui,
 Narrator: Gattouz percute violemment un passant encapuchonné.
